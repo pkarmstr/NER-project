@@ -1,4 +1,5 @@
 import re
+from collections import namedtuple, defaultdict
 
 __author__ = "Julia B.G. and Keelan A."
 
@@ -6,136 +7,151 @@ FUNCTION_WORDS = set(open("resources/function_words.txt","r").readlines())
 NOUN_SUFFIXES = set(open("resources/noun_suffixes.txt","r").readlines())
 ADJ_SUFFIXES = set(open("resources/adj_suffixes.txt","r").readlines())
 VERB_SUFFIXES = set(open("resources/verbal_suffixes.txt","r").readlines())
+ALL_BIGRAMS = defaultdict(set)
 
 
-def read_input(file_path):
-    """
-    return list of tuples (index,token, pos,bio)
-    """
+FeatureSet = namedtuple("FeatureSet", ["global_index", "sentence_index", "token", 
+                                       "POS_tag", "BIO_tag"])
+
+def open_bigrams_file():
+    try:
+        with open("resources/all_bigrams.txt", "r") as f_in:
+            for line in f_in:
+                word,prev_tokens_str = line.split("\t")
+                prev_tokens = set(prev_tokens_str.split())
+                ALL_BIGRAMS[word] = prev_tokens
+    except IOError:
+        pass
+
+def read_and_prepare_input(file_path):
+    open_bigrams_file()
     data = []
     with open(file_path, "rb") as f_in:
+        global_index = 0
+        sentence_index = 0 #sentence index isn't always correct, we'll keep track
         sentence = []
+        prev_token = "__START__"
         for line in f_in:
             features = line.split("\t")
             if len(features) == 4:
-                sentence.append(features)
+                token = features[1]
+                all_features = [global_index, sentence_index]+features[1:]
+                sentence.append(FeatureSet(*all_features))
+                ALL_BIGRAMS[prev_token].add(token)
+                prev_token = token
+                sentence_index += 1
             else:
                 data.append(sentence)
                 sentence = []
+                prev_token = "__START__"
+                global_index += 1
+                sentence_index = 0
     return data
 
 
-def get_features(tuple_list,output_path):
+def build_feature_set(original_features, unigram_features=[], 
+                      local_features=[], global_features=[]):
+    new_feature_sequence = []
+    for sentence in original_features:
+        for feature_set in sentence:
+            new_features = [feature_set.token, feature_set.POS_tag, feature_set.sentence_index]
+            for uni_feat in unigram_features:
+                new_features.append(uni_feat(feature_set))
+            
+            for local_feat in local_features:
+                new_features.append(local_feat(feature_set, sentence))
+                
+            for global_feat in global_features:
+                new_features.append(global_feat(feature_set, original_features))
+                
+            new_features.append(feature_set.BIO_tag)
+        
+        new_feature_sequence.append("\t".join(new_features))
+        new_feature_sequence.append("")
+        
+    return "\n".join(new_feature_sequence)
 
-    f=open(output_path,"w")
-    for (i,(j,token, pos,bio)) in enumerate(tuple_list):
-        #start with index, token, and pos-tag.
-        feat=["token="+token,"POS="+pos,j]
-
-        #features of token. Comment out features you don't want included.
-
-        feat.append("init_caps="+str(init_caps(token)))
-        feat.append("allCaps="+str(allCaps(token)))
-        feat.append("mixedCaps="+str(mixedCaps(token)))
-        feat.append("containsDigit="+str(containsDigit(token)))
-        feat.append("containsNonAlphaNum="+str(containsNonAlphaNum(token)))
-        feat.append("is_within_quotes="+str(is_within_quotes(token)))
-        feat.append("isFunctionWord="+str(isFunctWord(token)))
-        feat.append("noun_suffix="+str(has_noun_suffix(token)))
-        feat.append("verbal_suffix="+str(has_verbal_suffix(token)))
-        feat.append("adj_suffix="+str(has_adj_suffix(token)))
-
-        #features involving other tokens (previous, next)
-
-        if i!=len(tuple_list)-1: #features that look ahead
-            feat.append("nextInitCaps="+str(init_caps(tuple_list[i+1][1])))
-
-            if i>0: #if it isn't the first word of the whole file, look previous
-                feat.append("prev_curr_nextInitCaps="+str(prev_curr_nextInitCaps(i,j,tuple_list)))
-                feat.append("otherOccurSamePrevious="+str(otherOccurSamePrevious(i,tuple_list)))
-            else: #first word of the whole file, features involving previous are false.
-                feat.append("prev_curr_nextInitCaps=False")
-                feat.append("otherOccurSamePrevious=False")
-
-        else: #last word of file, features involving next word are false.
-            feat.append("nextInitCaps=False")
-            feat.append("prev_curr_nextInitCaps=False")
-            feat.append("otherOccurSamePrevious=False")
-
-
-        #label
-        feat.append(bio)
-
-        #write
-        f.write(("\t".join(feat))+"\n")
-
-    f.close()
 
 ####################
 # unigram features #
 ####################
 
-def init_caps(token):
-    return "init_caps={}".format(token.istitle())
+def init_caps(fs):
+    return "init_caps={}".format(fs.token.istitle())
 
-def all_caps(t):
-    return "all_caps={}".format(t.isupper())
+def all_caps(fs):
+    return "all_caps={}".format(fs.token.isupper())
 
-def mixed_caps(t):
-    return "mixed_caps={}".format(not t.islower() and\
-                                  not t.isupper() and\
-                                  t.isalpha())
+def mixed_caps(fs):
+    return "mixed_caps={}".format(not fs.token.islower() and\
+                                  not fs.token.isupper() and\
+                                  fs.token.isalpha())
 
-def contains_digit(t):
-    return "contains_digit={}".format(bool(re.match("\d",t)))
+def contains_digit(fs):
+    return "contains_digit={}".format(bool(re.match("\d",fs.token)))
 
-def contains_non_alpha_num(t):
-    return "contains_non_alpha_num={}".format(bool(re.match("\W",t)))
+def contains_non_alpha_num(fs):
+    return "contains_non_alpha_num={}".format(bool(re.match("\W",fs.token)))
 
-def is_funct_word(t):
-    return "is_funct_word={}".format(t.lower() in FUNCTION_WORDS)
+def is_funct_word(fs):
+    return "is_funct_word={}".format(fs.token.lower() in FUNCTION_WORDS)
 
-def has_noun_suffix(t):
-    return "has_noun_suffix={}".fomat(t[-3:].lower() in NOUN_SUFFIXES)
+def has_noun_suffix(fs):
+    return "has_noun_suffix={}".fomat(fs.token[-3:].lower() in NOUN_SUFFIXES)
 
-def has_verbal_suffix(t):
-    return "has_verbal_suffix={}".format(t[-3:].lower() in VERB_SUFFIXES)
+def has_verbal_suffix(fs):
+    return "has_verbal_suffix={}".format(fs.token[-3:].lower() in VERB_SUFFIXES)
 
-def has_adj_suffix(t):
-    return "has_adj_suffix={}".format(t[-3:].lower() in ADJ_SUFFIXES)
+def has_adj_suffix(fs):
+    return "has_adj_suffix={}".format(fs.token[-3:].lower() in ADJ_SUFFIXES)
 
 ##################
 # local features #
 ##################
 
-def is_within_quotes(t):
-    return (len(re.findall("\"",t))>0)
+def is_within_quotes(fs, sentence):
+    within_quote = False
+    feature_string = "is_within_quotes"
+    for _,local_index,token,_,_ in sentence:
+        if token == "``":
+            within_quote = True
+        elif token.endswith(''):
+            within_quote = False
+        if within_quote and local_index == fs.local_index:
+            return "{}=True".format(feature_string)
+
+    return "{}=False".format(feature_string)
 
 ###################
 # global features #
 ###################
 
-def otherOccurSamePrevious(curr_index,tuple_list): #need global context
-    prev=tuple_list[curr_index-1][1]
-    curr_w = tuple_list[curr_index][1]
+def sometimes_occur_same_previous(fs, original_sequence):
+    try:
+        prev_token = original_sequence[fs.global_index][fs.sentence_index-1]
+    except IndexError:
+        prev_token = "__START__"
+    return "sometimes_occur_same_previous={}".format(prev_token in ALL_BIGRAMS[fs.token])
 
-    found=False
-    j_prev=""
-    for (j,(i,token,pos,bio)) in enumerate(tuple_list[curr_index+1:]): #search in the rest of the doc
-        if token.startswith("NYT") or token.startswith("APW"): #new document, we only focus in the scope of that article
-            break
-        if token==curr_w and j_prev == prev:
-            found=True
-            break
-        j_prev = token
-    return found
+def always_occur_same_previous(fs):
+    return "always_occur_same_previous={}".format(len(ALL_BIGRAMS[fs.token]) == 1)
 
-
-
+def always_init_caps(fs):
+    return "always_init_caps={}".format(fs.token.istitle() and\
+                                        not ALL_BIGRAMS.has_key(fs.token.lower()))
 
 if __name__=="__main__":
-    tuple_list=read_input('train.gold')
-    get_features(tuple_list,"resources/new_train_gold.txt")
+    original_feature_set = read_and_prepare_input("resources/train_cleaned.gold")
+    unigram_features = [init_caps, all_caps, mixed_caps, contains_digit, 
+                        contains_non_alpha_num, is_funct_word, has_noun_suffix,
+                        has_verbal_suffix, has_adj_suffix]
+    local_features = [is_within_quotes]
+    global_features = [sometimes_occur_same_previous, always_occur_same_previous, 
+                       always_init_caps]
+    new_feats = build_feature_set(original_feature_set, unigram_features, 
+                                  local_features, global_features)
+    with open("train_test/train.gold", "w") as f_out:
+        f_out.write(new_feats)
 
 
 

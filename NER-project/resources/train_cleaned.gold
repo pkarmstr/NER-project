@@ -16296,7 +16296,7 @@
 23	tourism	NN	O
 24	:	:	O
 
-0	_Over	RB	O
+0	Over	RB	O
 1	the	DT	O
 2	weekend	NN	O
 3	,	,	O
@@ -16325,10 +16325,8 @@
 26	hours	NNS	O
 27	.	.	O
 
-0	_The	JJ	O
-1	<ORG-e6	JJ	O
-2	type="NOM"><FAC-e25	JJ	O
-3	type="NOM">embassy</ORG><	NN	FAC>,
+0	The	DT	O
+3	embassy	NN	O
 4	located	VBD	O
 5	across	IN	O
 6	Jakarta	NNP	B-GPE
@@ -16383,7 +16381,7 @@
 22	Israel	NNP	B-GPE
 23	.	.	O
 
-0	_The	IN	O
+0	The	IN	O
 1	U.S	NNP	O
 2	.	.	O
 
@@ -16414,7 +16412,7 @@
 24	streets	NNS	O
 25	.	.	O
 
-0	_A	NNP	O
+0	A	NNP	O
 1	U.S	NNP	O
 2	.	.	O
 
@@ -18962,9 +18960,7 @@
 7	the	DT	O
 8	special	JJ	O
 9	Scottish	JJ	O
-10	<FAC-e6	JJ	O
-11	type="NOM"><ORG-e56	JJ	O
-12	type="NOM">court</FAC><	NN	ORG>
+12	court	NN	O
 13	had	VBD	O
 14	been	VBN	O
 15	delayed	VBN	O

@@ -22,6 +22,12 @@ def open_bigrams_file():
                 ALL_BIGRAMS[word] = prev_tokens
     except IOError:
         pass
+    
+def write_bigrams():
+    with open("resources/all_brigrams.txt", "a") as f_out:
+        for word, prev_token_set in ALL_BIGRAMS.iteritems():
+            out_str = "{}\t{}".format(word, " ".join(prev_token_set))
+            f_out.write(out_str)
 
 def read_and_prepare_input(file_path):
     open_bigrams_file()
@@ -46,6 +52,7 @@ def read_and_prepare_input(file_path):
                 prev_token = "__START__"
                 global_index += 1
                 sentence_index = 0
+    write_bigrams()
     return data
 
 

@@ -1,14 +1,17 @@
 Name,column_index,turned_on,previous,forward,composite_others,composite_self
-init_caps,0,1,2,2,9 10 11 12,-2 2 -1 1
-all_caps,1,1,2,2,9 10 11 12,0
-mixed_caps,2,1,2,2,9 10 11 12,-1 1
-contains_digit,3,1,0,0,-1,-1 1
-contains_non_alpha_num,4,1,1,1,-1,-1 1
-is_funct_word,5,1,0,0,-1,0
-has_noun_suffix,6,1,0,0,0,-2 2 -1 1
-has_verbal_suffix,7,1,0,0,0 1 2,-1 1
-has_adj_suffix,8,1,0,0,-1,-1 1
-is_within_quotes,9,1,2,2,-1,-1 1
-sometimes_occur_same_previous,10,1,2,2,12,-2 2 -1 1
-always_occur_same_previous,11,1,2,2,12,-2 2 -1 1
-always_init_caps,12,1,2,2,-1,-2 2 -1 1
+token,0,1,2,2,1 2 12,-2 -1 2 1
+tag,1,1,2,2,13 14,-2 -1 2 1
+sent_pos,2,1,2,2,-1,0
+init_caps,3,1,2,2,9 10 11 12,-2 2 -1 1
+all_caps,4,1,2,2,9 10 11 12,0
+mixed_caps,5,1,2,2,9 10 11 12,-1 1
+contains_digit,6,1,0,0,-1,-1 1
+contains_non_alpha_num,7,1,1,1,-1,-1 1
+is_funct_word,8,1,0,0,-1,0
+has_noun_suffix,9,1,0,0,0,-2 2 -1 1
+has_verbal_suffix,10,1,0,0,0 1 2,-1 1
+has_adj_suffix,11,1,0,0,-1,-1 1
+is_within_quotes,12,1,2,2,-1,-1 1
+sometimes_occur_same_previous,13,1,2,2,12,-2 2 -1 1
+always_occur_same_previous,14,1,2,2,12,-2 2 -1 1
+always_init_caps,15,1,2,2,-1,-2 2 -1 1

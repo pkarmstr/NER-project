@@ -8,14 +8,20 @@ FUNCTION_WORDS = set(open("resources/function_words.txt","r").readlines())
 NOUN_SUFFIXES = set(open("resources/noun_suffixes.txt","r").readlines())
 ADJ_SUFFIXES = set(open("resources/adj_suffixes.txt","r").readlines())
 VERB_SUFFIXES = set(open("resources/verbal_suffixes.txt","r").readlines())
-ALL_BIGRAMS = defaultdict(set)
+CORP_SUFFIXES = set(open("resources/corporate_suffix_list.txt","r").readlines())
+LOCATIONS = set(open("resources/loc_list.txt","r").readlines())
+NAMES = set(open("resources/name_list.txt","r").readlines())
+ORGANIZATIONS = set(open("resources/org_list.txt","r").readlines())
+PERSON_PREFIXES = set(open("resources/person_prefix_list.txt","r").readlines())
+ALL_BIGRAMS = defaultdict(set) #treating these two like they're 'final', but in
+FREQ_DIST = defaultdict(int)   #reality, we're building them up in the set up
 
 
 FeatureSet = namedtuple("FeatureSet", ["global_index", "sentence_index", "token", 
                                        "POS_tag", "BIO_tag"])
 
 FeatureSetTest = namedtuple("FeatureSetTest", ["global_index", "sentence_index", 
-                                           "token", "POS_tag"])
+                                               "token", "POS_tag"])
 
 def open_bigrams_file():
     try:
@@ -54,6 +60,7 @@ def read_and_prepare_input(file_path, test=False):
                 all_features = [global_index, sentence_index]+features[1:]
                 sentence.append(FS(*all_features))
                 ALL_BIGRAMS[prev_token].add(token)
+                FREQ_DIST[token] += 1
                 prev_token = token
                 sentence_index += 1
             else:
@@ -130,6 +137,34 @@ def has_verbal_suffix(fs):
 def has_adj_suffix(fs):
     return "has_adj_suffix={}".format(fs.token[-3:].lower() in ADJ_SUFFIXES)
 
+def is_weekday(fs):
+    re_day ="(Thurs|Tues|Wednes|Mon|Fri|Satur|Sun)day" 
+    return "is_weekday={}".format(bool(re.match(re_day,fs.token)))
+
+def is_hyphenated_both_init_caps(fs):
+    if len(re.findall("-",fs.token))>0:
+        return "is_hyphenated_both_init_caps={}".format(all([w.istitle() for w in fs.token.split("-")]))
+    else:
+        return "is_hyphenated_both_init_caps=False"
+
+def is_common_word(fs):
+    return "is_common_word={}".format(FREQ_DIST[fs.token]>=5)
+
+def is_person_prefix(fs):
+    return "is_person_prefix={}".format(fs.token.lower() in PERSON_PREFIXES)
+
+def is_corp_suffix(fs):
+    return "is_corp_suffix={}".format(fs.token in CORP_SUFFIXES)
+
+def is_location(fs):
+    return "is_location={}".format(fs.token in LOCATIONS)
+
+def is_name(fs):
+    return "is_name={}".format(fs.token in NAMES)
+
+def is_org(fs):
+    return "is_org={}".format(fs.token in ORGANIZATIONS)
+
 ##################
 # local features #
 ##################
@@ -147,6 +182,53 @@ def is_within_quotes(fs, sentence):
 
 
     return "{}=False".format(feature_string)
+
+def acronym_begin(fs, sentence):
+    if fs.token.istitle():
+        acronym=fs.token[0]
+        i=fs.sentence_index+1
+        while i<len(sentence)-1 and sentence[i][2].istitle():
+            acronym+=sentence[i][2][0]
+            i+=1
+        return "acronym_begin={}".format(ALL_BIGRAMS.has_key(acronym) and len(acronym)>1)
+    return "acronym_begin=False"
+
+
+def acronym_inside(fs, sentence):
+    i = fs.sentence_index
+    acronym=""
+    while i>=0: ##check initials to the left
+        if sentence[i][2].istitle():
+            acronym=sentence[i][2][0]+acronym
+            i-=1
+        else:
+            break
+    if len(acronym)>1: #check initials to the right
+        i = fs.sentence_index+1
+        while i<len(sentence):
+            if sentence[i].token.istitle():
+                acronym=acronym+sentence[i].token[0]
+                i+=1
+            else:
+                break
+    return "acronym_inside={}".format(ALL_BIGRAMS.has_key(acronym) and len(acronym)>1)
+
+def inside_NNP_sequence(fs, sentence):
+    i=fs.sentence_index
+    if i>0:
+        previous_NNP = sentence[i-1].POS_tag=="NNP"
+        return "inside_NNP_sequence={}".format(fs.POS_tag == "NNP" and previous_NNP)
+    else:
+        return "inside_NNP_sequence=False"
+
+def first_in_NNP_sequence(fs, sentence):
+    i = fs.sentence_index
+    if i<len(sentence)-1: 
+        begin = inside_NNP_sequence(fs,sentence).endswith("False") and\
+        inside_NNP_sequence(sentence[i+1],sentence).endswith("True")
+        return "first_in_NNP_sequence={}".format(begin)
+    else:
+        return "first_in_NNP_sequence=False"
 
 ###################
 # global features #
@@ -173,10 +255,23 @@ def main():
     print "beginning everything"
     original_feature_set = read_and_prepare_input(sys.argv[1])
     print "read in file, prepared some stuff"
+    """
+    #the original features
     unigram_features = [init_caps, all_caps, mixed_caps, contains_digit, 
                         contains_non_alpha_num, is_funct_word, has_noun_suffix,
                         has_verbal_suffix, has_adj_suffix]
     local_features = [is_within_quotes]
+    global_features = [sometimes_occur_same_previous, always_occur_same_previous, 
+                       always_init_caps]
+    """
+    unigram_features = [init_caps, all_caps, mixed_caps, contains_digit, 
+                        contains_non_alpha_num, is_funct_word, has_noun_suffix,
+                        has_verbal_suffix, has_adj_suffix, is_weekday, 
+                        is_hyphenated_both_init_caps, is_common_word,
+                        is_person_prefix, is_corp_suffix, is_location,
+                        is_name, is_org]
+    local_features = [is_within_quotes, acronym_begin, acronym_inside, 
+                      inside_NNP_sequence, first_in_NNP_sequence]
     global_features = [sometimes_occur_same_previous, always_occur_same_previous, 
                        always_init_caps]
     print "building your new feature sets!"

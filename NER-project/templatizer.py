@@ -1,16 +1,26 @@
 import csv
 from collections import namedtuple
 
-CSVRow = namedtuple("CSVRow", ["name", "column", "turned_on", "previous", 
-                               "forward", "composite_others", "composite_self"])
+HEADER =  ["name", "column", "turned_on", "previous", "forward", "composite_others", "composite_self"]
+CSVRow = namedtuple("CSVRow", HEADER)
 
+def create_blank_csv(ordered_features, file_path):
+    with open(file_path, "w") as f_out:
+        writer = csv.writer(f_out, dialect='excel')
+        writer.writerow(HEADER)
+        writer.writerow(["token", 0])
+        writer.writerow(["tag", 1])
+        writer.writerow(["sent_pos", 2])
+        for i,feature_func in enumerate(ordered_features):
+            feat_name = str(feature_func).split()[1]
+            writer.writerow([feat_name, i+3])
 
 def read_in_csv(file_path):
     data = []
     with open(file_path, "rb") as f_in:
         reader = csv.reader(f_in, dialect='excel')
-        for name,column,turned_on,previous,forward,composite_others, composite_self in reader:
-            if name != "Name":
+        for name,column,turned_on,previous,forward,composite_others,composite_self in reader:
+            if name != "name":
                 column = int(column)
                 turned_on = bool(int(turned_on))
                 previous = -(int(previous))
@@ -33,39 +43,39 @@ def create_template(data, file_path, bigram=True):
             tappend("U{:02d}:{:s}".format(unigram_feature, curr_feat))
             unigram_feature += 1
             for i in xrange(feature.previous, 0):
-                r = "U{:02d}:%x[{:d},{:d}]".format(unigram_feature, i, 
-                                                   feature.column)
-                tappend(r)
+                template_row = "U{:02d}:%x[{:d},{:d}]".format(unigram_feature, 
+                                                              i, feature.column)
+                tappend(template_row)
                 unigram_feature += 1
             
             for i in xrange(1, feature.forward+1):
-                r = "U{:02d}:%x[{:d},{:d}]".format(unigram_feature, i, 
-                                                   feature.column)
-                tappend(r)
+                template_row = "U{:02d}:%x[{:d},{:d}]".format(unigram_feature, 
+                                                              i, feature.column)
+                tappend(template_row)
                 unigram_feature += 1
             
             for col_id in feature.composite_others:
                 if col_id == -1:
                     break
                 
-                r = "U{:02d}:{:s}/%x[{:d},{:d}]".format(unigram_feature, 
+                template_row = "U{:02d}:{:s}/%x[{:d},{:d}]".format(unigram_feature, 
                                                         curr_feat, 0, col_id)
-                tappend(r)
+                tappend(template_row)
                 unigram_feature += 1
                 
             for row_id in feature.composite_self:
                 if row_id == 0:
                     break
                 
-                r = "U{:02d}:{:s}".format(unigram_feature, curr_feat)
+                template_row = "U{:02d}:{:s}".format(unigram_feature, curr_feat)
                 if row_id < 0:
                     for i in xrange(row_id, 0):
-                        r += "/%x[{:d},{:d}]".format(i, feature.column)
+                        template_row += "/%x[{:d},{:d}]".format(i, feature.column)
                 else:
                     for i in xrange(1, row_id+1):
-                        r += "/%x[{:d},{:d}]".format(i, feature.column)
+                        template_row += "/%x[{:d},{:d}]".format(i, feature.column)
                         
-                tappend(r)
+                tappend(template_row)
                 unigram_feature += 1
                
     if bigram:
@@ -76,6 +86,9 @@ def create_template(data, file_path, bigram=True):
         f_out.write("\n".join(template_features))
             
 if __name__ == "__main__":
+    """
     data = read_in_csv("resources/for_template.csv")
     create_template(data, "train_test/template1")
     print "created template!"
+    """
+    

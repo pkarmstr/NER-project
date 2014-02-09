@@ -60,24 +60,26 @@ def read_and_prepare_input(file_path, test=False):
 def build_feature_set(original_features, unigram_features=[], 
                       local_features=[], global_features=[]):
     new_feature_sequence = []
+    nfseqappend = new_feature_sequence.append
     for sentence in original_features:
         for feature_set in sentence:
             new_features = [feature_set.token, 
                             feature_set.POS_tag, 
                             str(feature_set.sentence_index)]
+            nfappend = new_features.append
             for uni_feat in unigram_features:
-                new_features.append(uni_feat(feature_set))
+                nfappend(uni_feat(feature_set))
             
             for local_feat in local_features:
-                new_features.append(local_feat(feature_set, sentence))
+                nfappend(local_feat(feature_set, sentence))
                 
             for global_feat in global_features:
-                new_features.append(global_feat(feature_set, original_features))
+                nfappend(global_feat(feature_set, original_features))
                 
-            new_features.append(feature_set.BIO_tag)
-            new_feature_sequence.append("\t".join(new_features))
+            nfappend(feature_set.BIO_tag)
+            nfseqappend("\t".join(new_features))
             
-        new_feature_sequence.append("")
+        nfseqappend("")
         
     return "\n".join(new_feature_sequence)
 

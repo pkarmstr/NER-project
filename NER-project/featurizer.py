@@ -1,4 +1,5 @@
 import re
+import sys
 from collections import namedtuple, defaultdict
 
 __author__ = "Julia B.G. and Keelan A."
@@ -24,12 +25,12 @@ def open_bigrams_file():
         pass
     
 def write_bigrams():
-    with open("resources/all_brigrams.txt", "a") as f_out:
+    with open("resources/all_bigrams.txt", "w") as f_out:
         for word, prev_token_set in ALL_BIGRAMS.iteritems():
-            out_str = "{}\t{}".format(word, " ".join(prev_token_set))
+            out_str = "{}\t{}\n".format(word, " ".join(prev_token_set))
             f_out.write(out_str)
 
-def read_and_prepare_input(file_path):
+def read_and_prepare_input(file_path, test=False):
     open_bigrams_file()
     data = []
     with open(file_path, "rb") as f_in:
@@ -61,7 +62,9 @@ def build_feature_set(original_features, unigram_features=[],
     new_feature_sequence = []
     for sentence in original_features:
         for feature_set in sentence:
-            new_features = [feature_set.token, feature_set.POS_tag, str(feature_set.sentence_index)]
+            new_features = [feature_set.token, 
+                            feature_set.POS_tag, 
+                            str(feature_set.sentence_index)]
             for uni_feat in unigram_features:
                 new_features.append(uni_feat(feature_set))
             
@@ -122,10 +125,11 @@ def is_within_quotes(fs, sentence):
     for _,local_index,token,_,_ in sentence:
         if token == "``":
             within_quote = True
-        elif token.endswith(''):
+        elif token.endswith("\'\'"):
             within_quote = False
-        if within_quote and local_index == fs.sentence_index:
+        elif within_quote and local_index == fs.sentence_index:
             return "{}=True".format(feature_string)
+
 
     return "{}=False".format(feature_string)
 
@@ -146,10 +150,13 @@ def always_occur_same_previous(fs, original_sequence):
 def always_init_caps(fs, original_sequence):
     return "always_init_caps={}".format(fs.token.istitle() and\
                                         not ALL_BIGRAMS.has_key(fs.token.lower()))
-
-if __name__=="__main__":
+    
+def main():
+    if len(sys.argv) != 3:
+        print "Usage: [original_file] [output]"
+        sys.exit(1)
     print "beginning everything"
-    original_feature_set = read_and_prepare_input("resources/train_cleaned.gold")
+    original_feature_set = read_and_prepare_input(sys.argv[1])
     print "read in file, prepared some stuff"
     unigram_features = [init_caps, all_caps, mixed_caps, contains_digit, 
                         contains_non_alpha_num, is_funct_word, has_noun_suffix,
@@ -161,9 +168,9 @@ if __name__=="__main__":
     new_feats = build_feature_set(original_feature_set, unigram_features, 
                                   local_features, global_features)
     print "writing to file"
-    with open("train_test/train.gold", "w") as f_out:
+    with open(sys.argv[2], "w") as f_out:
         f_out.write(new_feats)
     print "done!!"
 
-
-
+if __name__=="__main__":
+    main()

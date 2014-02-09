@@ -1,9 +1,11 @@
 import re
 import sys
+import enchant
 from collections import namedtuple, defaultdict
 
 __author__ = "Julia B.G. and Keelan A."
 
+ENGLISH_DICTIONARY = enchant.Dict("en_US")
 FUNCTION_WORDS = set(open("resources/function_words.txt","r").readlines())
 NOUN_SUFFIXES = set(open("resources/noun_suffixes.txt","r").readlines())
 ADJ_SUFFIXES = set(open("resources/adj_suffixes.txt","r").readlines())
@@ -168,6 +170,13 @@ def is_name(fs):
 def is_org(fs):
     return "is_org={}".format(fs.token in ORGANIZATIONS)
 
+def is_month(fs): #although we could use a list instead of a regexp...but anyway 
+    re_month = "((Janua|Februa)ry)|((Septem|Octo|Novem|Decem)ber)|(March|April|May|June|July|August)"
+    return "is_month={}".format(bool(re.match(re_month,fs.token)))
+
+def is_oov(fs):
+    return "is_oov={}".format(ENGLISH_DICTIONARY.check(fs.token))
+
 ##################
 # local features #
 ##################
@@ -233,6 +242,20 @@ def first_in_NNP_sequence(fs, sentence):
     else:
         return "first_in_NNP_sequence=False"
 
+def period_middle_sentence(fs,sentence):
+    return "period_middle_sentence={}".format(fs.token.endswith(".") and fs.sentence_index!=len(sentence)-1)
+
+def is_useful_unigram(fs,sentence): #words that precede tokens that are not bio “O”. 
+    i = fs.sentence_index
+    if i<len(sentence)-1:
+        next_word_bio = sentence[i+1].BIO_tag
+        if next_word_bio != "O\n":
+            print fs.token, next_word_bio
+            return "is_useful_unigram={}".format(fs.token in USEFUL_UNIGRAM[next_word_bio])
+        return "is_useful_unigram=False"
+    else:
+        return "is_useful_unigram=False"
+
 ###################
 # global features #
 ###################
@@ -257,9 +280,10 @@ def get_all_features(): #make sure to keep updated
                         has_verbal_suffix, has_adj_suffix, is_weekday, 
                         is_hyphenated_both_init_caps, is_common_word,
                         is_person_prefix, is_corp_suffix, is_location,
-                        is_name, is_org]
+                        is_name, is_org, is_month, is_oov]
     local_features = [is_within_quotes, acronym_begin, acronym_inside, 
-                      inside_NNP_sequence, first_in_NNP_sequence]
+                      inside_NNP_sequence, first_in_NNP_sequence, 
+                      period_middle_sentence, is_useful_unigram]
     global_features = [sometimes_occur_same_previous, always_occur_same_previous, 
                        always_init_caps]
     return FeatureBox(unigram_features, local_features, global_features)

@@ -7,10 +7,11 @@ Compute the accuracy of an NE tagger:
 
 #usage: evaluate-per-label.py [gold_file][output_file]
 
-import sys, re
+import sys
+import re
 
 if len(sys.argv) != 3:
-    sys.exit("usage: evaluate_per_label.py [gold_file][output_file]")
+    sys.exit("usage: evaluate_per_label.py [gold_file] [output_file]")
 
 #gold standard file
 goldfh = open(sys.argv[1], 'r')
@@ -57,15 +58,7 @@ test_total = 0
 gold_total = 0
 correct = 0
 
-
-label_dict = {
-    'B-PER':{'test_total':0,'gold_total':0, 'correct':0},
-    'I-PER':{'test_total':0,'gold_total':0, 'correct':0},
-    'B-ORG':{'test_total':0,'gold_total':0, 'correct':0},
-    'I-ORG':{'test_total':0,'gold_total':0, 'correct':0},
-    'B-GPE':{'test_total':0,'gold_total':0, 'correct':0},
-    'I-GPE':{'test_total':0,'gold_total':0, 'correct':0}
-    }
+label_dict = {}
 
 
 #print gold_tag_list
@@ -77,16 +70,29 @@ for i in range(len(gold_tag_list)):
     for j in range(len(gold_tag_list[i])):
         gold_tag = gold_tag_list[i][j]
         test_tag = test_tag_list[i][j]
-        if gold_tag in label_dict:            
+        if gold_tag != "O":            
             gold_total += 1
-            label_dict[gold_tag]['gold_total'] += 1
-        if test_tag in label_dict:
+            try:
+                label_dict[gold_tag][1] += 1
+            except KeyError:
+                label_dict[gold_tag] = [0, 1, 0]
+        if test_tag != "O":
             test_total += 1
-            label_dict[test_tag]['test_total'] += 1
-        if gold_tag in label_dict and gold_tag == test_tag:
+            try:
+                label_dict[test_tag][0] += 1
+            except KeyError:
+                label_dict[gold_tag] = [1, 0, 0]
+        if gold_tag != "O" and gold_tag == test_tag:
             correct += 1
-            label_dict[gold_tag]['correct'] += 1
+            try:
+                label_dict[gold_tag][2] += 1
+            except KeyError: #this should never happen though
+                label_dict[gold_tag] = [0, 0, 1]
 
+print test_total
+print gold_total
+print correct
+print
 
 precision_all = float(correct) / test_total
 recall_all = float(correct) / gold_total
@@ -99,15 +105,15 @@ print "OVERALL" + "\t\t" + str(round(precision_all,2)) + "\t\t"+ \
 
 for label in sorted(label_dict.keys()):
 
-    if label_dict[label]['test_total'] != 0:
+    if label_dict[label][0] != 0:
         p = \
-           float(label_dict[label]['correct']) / label_dict[label]['test_total']
+           float(label_dict[label][2]) / label_dict[label][0]
     else:
         p = 0.0
 
-    if label_dict[label]['gold_total'] != 0:
+    if label_dict[label][1] != 0:
         r = \
-           float(label_dict[label]['correct']) / label_dict[label]['gold_total']
+           float(label_dict[label][2]) / label_dict[label][1]
     else:
         r = 0.0
 

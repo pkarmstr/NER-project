@@ -23,6 +23,9 @@ FeatureSet = namedtuple("FeatureSet", ["global_index", "sentence_index", "token"
 FeatureSetTest = namedtuple("FeatureSetTest", ["global_index", "sentence_index", 
                                                "token", "POS_tag"])
 
+FeatureBox = namedtuple("FeatureBox", ["unigram_features", "local_features", 
+                                       "global_features"])
+
 def open_bigrams_file():
     try:
         with open("resources/all_bigrams.txt", "r") as f_in:
@@ -247,6 +250,19 @@ def always_occur_same_previous(fs, original_sequence):
 def always_init_caps(fs, original_sequence):
     return "always_init_caps={}".format(fs.token.istitle() and\
                                         not ALL_BIGRAMS.has_key(fs.token.lower()))
+
+def get_all_features(): #make sure to keep updated
+    unigram_features = [init_caps, all_caps, mixed_caps, contains_digit, 
+                        contains_non_alpha_num, is_funct_word, has_noun_suffix,
+                        has_verbal_suffix, has_adj_suffix, is_weekday, 
+                        is_hyphenated_both_init_caps, is_common_word,
+                        is_person_prefix, is_corp_suffix, is_location,
+                        is_name, is_org]
+    local_features = [is_within_quotes, acronym_begin, acronym_inside, 
+                      inside_NNP_sequence, first_in_NNP_sequence]
+    global_features = [sometimes_occur_same_previous, always_occur_same_previous, 
+                       always_init_caps]
+    return FeatureBox(unigram_features, local_features, global_features)
     
 def main():
     if len(sys.argv) != 3:
@@ -264,16 +280,7 @@ def main():
     global_features = [sometimes_occur_same_previous, always_occur_same_previous, 
                        always_init_caps]
     """
-    unigram_features = [init_caps, all_caps, mixed_caps, contains_digit, 
-                        contains_non_alpha_num, is_funct_word, has_noun_suffix,
-                        has_verbal_suffix, has_adj_suffix, is_weekday, 
-                        is_hyphenated_both_init_caps, is_common_word,
-                        is_person_prefix, is_corp_suffix, is_location,
-                        is_name, is_org]
-    local_features = [is_within_quotes, acronym_begin, acronym_inside, 
-                      inside_NNP_sequence, first_in_NNP_sequence]
-    global_features = [sometimes_occur_same_previous, always_occur_same_previous, 
-                       always_init_caps]
+    unigram_features,local_features,global_features = get_all_features()
     print "building your new feature sets!"
     new_feats = build_feature_set(original_feature_set, unigram_features, 
                                   local_features, global_features)

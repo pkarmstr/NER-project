@@ -1,4 +1,4 @@
-Name,column_index,turned_on,previous,forward,composite_others,composite_self
+name,column_index,turned_on,previous,forward,composite_others,composite_self
 token,0,1,2,2,1 2 12,-2 -1 2 1
 tag,1,1,2,2,13 14,-2 -1 2 1
 sent_pos,2,1,2,2,-1,0

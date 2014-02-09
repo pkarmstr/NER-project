@@ -1,7 +1,9 @@
 import csv
 from collections import namedtuple
 
-HEADER =  ["name", "column", "turned_on", "previous", "forward", "composite_others", "composite_self"]
+
+HEADER =  ["name", "column", "turned_on", "previous", "forward", 
+           "composite_others", "composite_self"]
 CSVRow = namedtuple("CSVRow", HEADER)
 
 def create_blank_csv(ordered_features, file_path):
@@ -91,4 +93,7 @@ if __name__ == "__main__":
     create_template(data, "train_test/template1")
     print "created template!"
     """
+    import featurizer
+    u,l,g = featurizer.get_all_features()
+    create_blank_csv(u+l+g, "resources/all_features.csv")
     

@@ -73,6 +73,7 @@ for i in range(len(gold_tag_list)):
             correct += 1
 
 
+print test_total
 precision = float(correct) / test_total
 recall = float(correct) / gold_total
 f = precision * recall * 2 / (precision + recall)

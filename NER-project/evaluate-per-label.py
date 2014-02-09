@@ -10,7 +10,7 @@ Compute the accuracy of an NE tagger:
 import sys, re
 
 if len(sys.argv) != 3:
-    sys.exit("usage: evaluate-per-label.py [gold_file][output_file]")
+    sys.exit("usage: evaluate_per_label.py [gold_file][output_file]")
 
 #gold standard file
 goldfh = open(sys.argv[1], 'r')
@@ -77,13 +77,13 @@ for i in range(len(gold_tag_list)):
     for j in range(len(gold_tag_list[i])):
         gold_tag = gold_tag_list[i][j]
         test_tag = test_tag_list[i][j]
-        if gold_tag != 'O':            
+        if gold_tag in label_dict:            
             gold_total += 1
             label_dict[gold_tag]['gold_total'] += 1
-        if test_tag != 'O':
+        if test_tag in label_dict:
             test_total += 1
             label_dict[test_tag]['test_total'] += 1
-        if gold_tag != 'O' and gold_tag == test_tag:
+        if gold_tag in label_dict and gold_tag == test_tag:
             correct += 1
             label_dict[gold_tag]['correct'] += 1
 

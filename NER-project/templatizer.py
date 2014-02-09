@@ -30,7 +30,8 @@ def create_template(data, file_path, bigram=True):
     for feature in data:
         if feature.turned_on:
             curr_feat = "%x[{:d},{:d}]".format(0, feature.column)
-            tappend("U{:02d}:{:s}".format(0, curr_feat))
+            tappend("U{:02d}:{:s}".format(unigram_feature, curr_feat))
+            unigram_feature += 1
             for i in xrange(feature.previous, 0):
                 r = "U{:02d}:%x[{:d},{:d}]".format(unigram_feature, i, 
                                                    feature.column)
@@ -59,10 +60,10 @@ def create_template(data, file_path, bigram=True):
                 r = "U{:02d}:{:s}".format(unigram_feature, curr_feat)
                 if row_id < 0:
                     for i in xrange(row_id, 0):
-                        r += "/%x[{:d},{:d}]".format(row_id, feature.column)
+                        r += "/%x[{:d},{:d}]".format(i, feature.column)
                 else:
                     for i in xrange(1, row_id+1):
-                        r += "/%x[{:d},{:d}]".format(row_id, feature.column)
+                        r += "/%x[{:d},{:d}]".format(i, feature.column)
                         
                 tappend(r)
                 unigram_feature += 1

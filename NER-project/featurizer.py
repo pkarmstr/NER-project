@@ -14,6 +14,9 @@ ALL_BIGRAMS = defaultdict(set)
 FeatureSet = namedtuple("FeatureSet", ["global_index", "sentence_index", "token", 
                                        "POS_tag", "BIO_tag"])
 
+FeatureSetTest = namedtuple("FeatureSetTest", ["global_index", "sentence_index", 
+                                           "token", "POS_tag"])
+
 def open_bigrams_file():
     try:
         with open("resources/all_bigrams.txt", "r") as f_in:
@@ -33,17 +36,23 @@ def write_bigrams():
 def read_and_prepare_input(file_path, test=False):
     open_bigrams_file()
     data = []
+    if test:
+        correct_len = 3
+        FS = FeatureSetTest
+    else:
+        correct_len = 4
+        FS = FeatureSet
     with open(file_path, "rb") as f_in:
         global_index = 0
         sentence_index = 0 #sentence index isn't always correct, we'll keep track
         sentence = []
         prev_token = "__START__"
         for line in f_in:
-            features = line.split("\t")
-            if len(features) == 4:
+            features = line[:-1].split("\t")
+            if len(features) == correct_len:
                 token = features[1]
                 all_features = [global_index, sentence_index]+features[1:]
-                sentence.append(FeatureSet(*all_features))
+                sentence.append(FS(*all_features))
                 ALL_BIGRAMS[prev_token].add(token)
                 prev_token = token
                 sentence_index += 1
@@ -76,7 +85,11 @@ def build_feature_set(original_features, unigram_features=[],
             for global_feat in global_features:
                 nfappend(global_feat(feature_set, original_features))
                 
-            nfappend(feature_set.BIO_tag)
+            try:
+                nfappend(feature_set.BIO_tag)
+            except AttributeError:
+                continue
+            
             nfseqappend("\t".join(new_features))
             
         nfseqappend("")
@@ -155,7 +168,7 @@ def always_init_caps(fs, original_sequence):
     
 def main():
     if len(sys.argv) != 3:
-        print "Usage: [original_file] [output]"
+        print "Usage: featurizer.py [original_file] [output]"
         sys.exit(1)
     print "beginning everything"
     original_feature_set = read_and_prepare_input(sys.argv[1])

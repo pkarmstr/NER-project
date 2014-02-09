@@ -60,7 +60,6 @@ def build_feature_set(original_features, unigram_features=[],
                       local_features=[], global_features=[]):
     new_feature_sequence = []
     for sentence in original_features:
-        print new_feature_sequence
         for feature_set in sentence:
             new_features = [feature_set.token, feature_set.POS_tag, str(feature_set.sentence_index)]
             for uni_feat in unigram_features:

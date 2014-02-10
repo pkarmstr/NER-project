@@ -1,3 +1,5 @@
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
 import re
 import sys
 import enchant
@@ -17,6 +19,7 @@ ORGANIZATIONS = set(open("resources/org_list.txt","r").readlines())
 PERSON_PREFIXES = set(open("resources/person_prefix_list.txt","r").readlines())
 ALL_BIGRAMS = defaultdict(set) #treating these two like they're 'final', but in
 FREQ_DIST = defaultdict(int)   #reality, we're building them up in the set up
+USEFUL_UNIGRAM = defaultdict(set)
 
 
 FeatureSet = namedtuple("FeatureSet", ["global_index", "sentence_index", "token", 
@@ -66,6 +69,8 @@ def read_and_prepare_input(file_path, test=False):
                 sentence.append(FS(*all_features))
                 ALL_BIGRAMS[prev_token].add(token)
                 FREQ_DIST[token] += 1
+                if not test and features[-1] != 'O':
+                    USEFUL_UNIGRAM[token].add(prev_token)
                 prev_token = token
                 sentence_index += 1
             else:
@@ -250,7 +255,6 @@ def is_useful_unigram(fs,sentence): #words that precede tokens that are not bio 
     if i<len(sentence)-1:
         next_word_bio = sentence[i+1].BIO_tag
         if next_word_bio != "O\n":
-            print fs.token, next_word_bio
             return "is_useful_unigram={}".format(fs.token in USEFUL_UNIGRAM[next_word_bio])
         return "is_useful_unigram=False"
     else:

@@ -46,9 +46,26 @@ def write_bigrams():
         for word, prev_token_set in ALL_BIGRAMS.iteritems():
             out_str = "{}\t{}\n".format(word, " ".join(prev_token_set))
             f_out.write(out_str)
+            
+def open_useful_file():
+    try:
+        with open("resources/useful.txt", "r") as f_in:
+            for line in f_in:
+                word,prev_tokens_str = line[:-1].split("\t")
+                prev_tokens = set(prev_tokens_str.split())
+                USEFUL_UNIGRAM[word] = prev_tokens
+    except IOError:
+        pass
+    
+def write_useful():
+    with open("resources/useful.txt", "w") as f_out:
+        for word, prev_token_set in USEFUL_UNIGRAM.iteritems():
+            out_str = "{}\t{}\n".format(word, " ".join(prev_token_set))
+            f_out.write(out_str)
 
 def read_and_prepare_input(file_path, test=False):
     open_bigrams_file()
+    open_useful_file()
     data = []
     if test:
         correct_len = 3
@@ -80,6 +97,7 @@ def read_and_prepare_input(file_path, test=False):
                 global_index += 1
                 sentence_index = 0
     write_bigrams()
+    write_useful()
     return data
 
 
@@ -293,11 +311,17 @@ def get_all_features(): #make sure to keep updated
     return FeatureBox(unigram_features, local_features, global_features)
     
 def main():
-    if len(sys.argv) != 3:
-        print "Usage: featurizer.py [original_file] [output]"
+    if len(sys.argv) >= 3:
+        print "Usage: featurizer.py [original_file] [output] [-t]"
         sys.exit(1)
     print "beginning everything"
-    original_feature_set = read_and_prepare_input(sys.argv[1])
+    test = False
+    try:
+        sys.argv[4]
+        test = True
+    except IndexError:
+        continue
+    original_feature_set = read_and_prepare_input(sys.argv[1], test=test)
     print "read in file, prepared some stuff"
     """
     #the original features

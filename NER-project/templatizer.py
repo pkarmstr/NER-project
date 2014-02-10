@@ -1,4 +1,5 @@
 import csv
+import sys
 from collections import namedtuple
 
 
@@ -88,12 +89,14 @@ def create_template(data, file_path, bigram=True):
         f_out.write("\n".join(template_features))
             
 if __name__ == "__main__":
-    """
-    data = read_in_csv("resources/for_template.csv")
-    create_template(data, "train_test/template1")
+    if len(sys.argv) != 3:
+        sys.exit("Usage: templatizer [for_template.csv] [output]")
+    data = read_in_csv(sys.argv[1])
+    create_template(data, sys.argv[2])
     print "created template!"
     """
     import featurizer
     u,l,g = featurizer.get_all_features()
     create_blank_csv(u+l+g, "resources/all_features.csv")
+    """
     

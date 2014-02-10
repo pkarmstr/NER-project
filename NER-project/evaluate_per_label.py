@@ -81,7 +81,7 @@ for i in range(len(gold_tag_list)):
             try:
                 label_dict[test_tag][0] += 1
             except KeyError:
-                label_dict[gold_tag] = [1, 0, 0]
+                label_dict[test_tag] = [1, 0, 0]
         if gold_tag != "O" and gold_tag == test_tag:
             correct += 1
             try:

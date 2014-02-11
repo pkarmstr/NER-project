@@ -297,6 +297,11 @@ def always_init_caps(fs, original_sequence):
     return "always_init_caps={}".format(fs.token.istitle() and\
                                         not ALL_BIGRAMS.has_key(fs.token.lower()))
 
+def always_all_caps(fs, original_sequence):
+    return "always_all_caps={}".format(fs.token.isupper() and\
+                                       not ALL_BIGRAMS.has_key(fs.token.lower()) and\
+                                       not ALL_BIGRAMS.has_key(fs.token.title()))
+
 def get_all_features(): #make sure to keep updated
     unigram_features = [init_caps, all_caps, mixed_caps, contains_digit, 
                         contains_non_alpha_num, is_funct_word, has_noun_suffix,

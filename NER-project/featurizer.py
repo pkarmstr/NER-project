@@ -15,7 +15,7 @@ VERB_SUFFIXES = set(open("resources/verbal_suffixes.txt","r").read().split("\n")
 CORP_SUFFIXES = set(open("resources/corporate_suffix_list.txt","r").read().split("\n"))
 LOCATIONS = set(open("resources/loc_list.txt","r").read().split("\n"))
 NAMES = set(open("resources/name_list.txt","r").read().split("\n"))
-ORGANIZATIONS = set(open("resources/org_list.txt","r").read().split("\n"))
+ORGANIZATIONS = set(open("resources/orgs_list.txt","r").read().split("\n"))
 PERSON_PREFIXES = set(open("resources/person_prefix_list.txt","r").read().split("\n"))
 ALL_BIGRAMS = defaultdict(set) #treating these two like they're 'final', but in
 FREQ_DIST = defaultdict(int)   #reality, we're building them up in the set up
@@ -87,7 +87,7 @@ def read_and_prepare_input(file_path, test=False):
                 ALL_BIGRAMS[prev_token].add(token)
                 FREQ_DIST[token] += 1
                 if not test and features[-1] != 'O':
-                    USEFUL_UNIGRAM[token].add(prev_token)
+                    USEFUL_UNIGRAM[prev_token].add(features[-1])
                 prev_token = token
                 sentence_index += 1
             else:
@@ -199,7 +199,7 @@ def is_month(fs): #although we could use a list instead of a regexp...but anyway
     return "is_month={}".format(bool(re.match(re_month,fs.token)))
 
 def is_oov(fs):
-    return "is_oov={}".format(ENGLISH_DICTIONARY.check(fs.token.lower()))
+    return "is_oov={}".format(not ENGLISH_DICTIONARY.check(fs.token.lower()))
 
 ##################
 # local features #
@@ -208,14 +208,13 @@ def is_oov(fs):
 def is_within_quotes(fs, sentence):
     within_quote = False
     feature_string = "is_within_quotes"
-    for _,local_index,token,_,_ in sentence:
-        if token == "``":
+    for other_fs in sentence:
+        if other_fs.token == "``":
             within_quote = True
-        elif token.endswith("\'\'"):
+        elif other_fs.token.endswith("\'\'"):
             within_quote = False
-        elif within_quote and local_index == fs.sentence_index:
+        elif within_quote and other_fs.sentence_index == fs.sentence_index:
             return "{}=True".format(feature_string)
-
 
     return "{}=False".format(feature_string)
 
@@ -272,9 +271,9 @@ def period_middle_sentence(fs,sentence):
 def is_useful_unigram(fs,sentence): #words that precede tokens that are not bio “O”. 
     i = fs.sentence_index
     if i<len(sentence)-1:
-        next_word_bio = sentence[i+1].BIO_tag
+        next_word_bio = sentence[i+1].BIO_tag #dammit
         if next_word_bio != "O\n":
-            return "is_useful_unigram={}".format(fs.token in USEFUL_UNIGRAM[next_word_bio])
+            return "is_useful_unigram={}".format(next_word_bio in USEFUL_UNIGRAM[fs.token])
         return "is_useful_unigram=False"
     else:
         return "is_useful_unigram=False"
@@ -283,15 +282,15 @@ def is_useful_unigram(fs,sentence): #words that precede tokens that are not bio 
 # global features #
 ###################
 
-def sometimes_occur_same_previous(fs, original_sequence):
+def sometimes_occur_same_next(fs, original_sequence):
     try:
-        prev_token = original_sequence[fs.global_index][fs.sentence_index-1]
+        prev_token = original_sequence[fs.global_index][fs.sentence_index-1].token
     except IndexError:
         prev_token = "__START__"
-    return "sometimes_occur_same_previous={}".format(prev_token in ALL_BIGRAMS[fs.token])
+    return "sometimes_occur_same_next={}".format(fs.token in ALL_BIGRAMS[prev_token])
 
-def always_occur_same_previous(fs, original_sequence):
-    return "always_occur_same_previous={}".format(len(ALL_BIGRAMS[fs.token]) == 1)
+def always_occur_same_next(fs, original_sequence):
+    return "always_occur_same_next={}".format(len(ALL_BIGRAMS[fs.token]) == 1)
 
 def always_init_caps(fs, original_sequence):
     return "always_init_caps={}".format(fs.token.istitle() and\
@@ -312,8 +311,8 @@ def get_all_features(): #make sure to keep updated
     local_features = [is_within_quotes, acronym_begin, acronym_inside, 
                       inside_NNP_sequence, first_in_NNP_sequence, 
                       period_middle_sentence, is_useful_unigram]
-    global_features = [sometimes_occur_same_previous, always_occur_same_previous, 
-                       always_init_caps]
+    global_features = [sometimes_occur_same_next, always_occur_same_next, 
+                       always_init_caps, always_all_caps]
     return FeatureBox(unigram_features, local_features, global_features)
     
 def main():

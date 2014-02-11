@@ -80,7 +80,12 @@ def create_template(data, file_path, bigram=True):
                         
                 tappend(template_row)
                 unigram_feature += 1
-               
+    
+    tappend("U{:02d}:%x[0,22]/%x[1,19]".format(unigram_feature+1))
+    tappend("U{:02d}:%x[0,6]/%x[1,19]".format(unigram_feature+2))
+    tappend("U{:02d}:%x[0,18]/%x[1,21]".format(unigram_feature+3))
+    tappend("U{:02d}:%x[0,18]/%x[0,6]".format(unigram_feature+4))
+    
     if bigram:
         tappend("")
         tappend("B")
@@ -97,6 +102,6 @@ if __name__ == "__main__":
     """
     import featurizer
     u,l,g = featurizer.get_all_features()
-    create_blank_csv(u+l+g, "resources/all_features.csv")
+    create_blank_csv(u+l+g, "resources/blank_features.csv")
     """
     

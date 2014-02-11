@@ -1,0 +1,1362 @@
+all	B-PER
+coach	B-ORG B-PER
+chain	B-ORG
+Peoples	I-ORG
+Jim	I-PER
+Sugar	I-ORG
+leads	B-ORG
+Hassan	I-PER
+protest	B-PER B-GPE
+Wayne	I-FAC I-PER
+Bond/Parkhurst	I-ORG
+Villard	I-ORG
+Department	I-ORG
+Communist	I-ORG
+hate	B-GPE
+Entertaining	I-ORG
+Buddy	I-PER
+Brown	I-ORG
+Geographic	I-ORG
+Onvia.com	I-ORG
+Palestine-General	I-ORG
+Barbara	I-PER
+Dan	I-PER
+Forrester	I-ORG
+father	B-PER
+send	B-PER
+Baroness	B-PER
+Ronald	I-PER
+to	B-ORG B-PER B-GPE
+Western	I-ORG
+Rifle	I-ORG
+Atlanta	I-ORG
+include	B-ORG B-PER B-GPE
+Day	I-PER
+sent	B-PER
+Dickerson	I-FAC
+League	I-ORG
+Federalist	I-ORG
+Sanctions	I-ORG
+Valle	I-LOC
+accompanied	B-PER
+Constitutional	I-ORG
+Alex	I-PER
+GE	I-ORG
+DJB	I-ORG
+putting	B-ORG
+accuse	B-PER
+Henry	I-PER
+Boy	I-ORG
+Financial	I-ORG
+Research	I-ORG
+Tommy''	I-PER
+Ward	I-FAC
+Ehud	I-PER
+Ambassador	B-PER
+Thomas	I-PER
+Public	I-ORG
+Investors	I-ORG
+Khalifa	I-PER
+Zarko	I-PER
+Keith	I-PER
+violates	B-PER
+Premier	B-PER I-ORG
+manager	B-PER
+leave	B-GPE
+Ho	I-GPE
+Nasdaq	I-ORG
+election	B-PER
+Darrell	I-PER
+Mahmoud	I-PER
+playwright	B-PER
+Republic	I-ORG
+Paul	I-PER
+Suzanne	I-PER
+Carlo	I-PER
+George	I-FAC I-PER
+Kevin	I-PER
+Chase	I-ORG I-PER
+RR	I-ORG
+says	B-PER
+leaders	B-PER
+insignificant	B-ORG
+Dewi	I-PER
+M.	I-PER
+Denver	I-ORG
+Glaxo	I-ORG
+State	I-ORG B-PER
+persuade	B-PER
+Rick	I-PER
+lawyer	B-PER
+Heritage	I-FAC
+Braca	I-PER
+Word	I-ORG
+East	I-LOC I-GPE I-ORG
+Dauphin	I-ORG
+Fucheng	I-PER
+Red	I-ORG
+Dianne	I-PER
+Goeran	I-PER
+enticing	B-GPE
+what	B-PER B-GPE
+Korea	I-ORG
+plays	B-PER
+Janet	I-PER
+representative	B-PER
+-based	B-ORG
+Wolfgang	I-PER
+Sherman	I-GPE
+while	B-PER B-GPE
+Alan	I-PER
+Boise	I-ORG
+spokesman	B-PER
+far-right	B-ORG
+Roundabout	I-ORG
+commissioner	B-PER
+capital	B-GPE
+international	I-FAC I-ORG
+learned	B-PER
+America	I-ORG
+Hong	I-GPE I-ORG
+Presidential	I-ORG
+told	B-ORG B-PER
+Arena	I-ORG
+supporting	B-GPE
+Rush	I-PER
+Motorola	I-ORG
+Bishops	I-ORG
+Freedom	I-ORG
+Claire	I-PER
+Mohammed	I-PER
+Madeha	I-PER
+Arthur	I-PER
+let	B-PER
+Glover	I-PER
+Clay	I-PER
+Irian	I-GPE
+Coldwell	I-ORG
+Terry	I-PER
+Reggie	I-PER
+Confederation	I-ORG
+publisher	B-PER
+search	B-PER
+Associated	I-ORG
+Yola	I-PER
+Chinese	I-ORG
+receive	B-PER
+involved	B-PER
+Manufacturers	I-ORG
+Clara	I-PER
+Jennifer	I-PER
+Azeglio	I-PER
+suggests	B-GPE
+Associates	I-ORG
+Palm	I-GPE
+developer	B-PER
+Little	I-GPE
+Big	I-ORG
+Abdel	I-PER
+extends	B-GPE
+B.J.	I-PER
+maker	B-ORG
+Phonographic	I-ORG
+Golan	I-LOC
+Mountain	I-FAC I-GPE
+Style	I-ORG
+via	B-ORG B-GPE
+Gush	I-GPE
+Reform	I-ORG
+Justice	B-PER
+win	B-GPE
+Robert	I-PER
+manage	B-PER
+When	B-VEH B-PER
+Relations	I-ORG
+replace	B-ORG B-PER
+Jeb	I-PER
+ask	B-PER
+Joerg	I-PER
+Gisela	I-PER
+Health	I-ORG
+S.	I-PER
+composer	B-PER
+Tom	I-PER
+Basil	I-PER
+Joni	I-PER
+should	B-PER
+Godfried	I-PER
+Bob	I-PER
+Dale	I-GPE
+Sanders	I-PER
+use	B-ORG B-FAC
+from	B-ORG B-LOC B-FAC B-GPE B-PER
+Hewlett-Packard	I-ORG
+Beecham	I-ORG
+La	I-FAC
+visit	B-GPE
+Beacon	I-ORG
+Options	I-ORG
+Tiger	I-ORG
+Federal	I-ORG
+Katherine	I-PER
+Graf	I-PER
+People's	I-ORG
+taken	B-GPE
+Cory	I-PER
+prosecutor	B-PER
+Struggle	I-ORG
+``	B-ORG B-PER B-GPE I-PER
+Land	I-ORG
+anchorman	B-PER
+brings	B-GPE
+under	B-PER
+Ripudan	I-PER
+committeewoman	B-PER
+American	I-FAC I-ORG
+train	I-FAC
+Roger	I-PER
+accept	B-PER
+Brad	I-PER
+known	B-PER
+central	B-LOC
+Westchester	I-FAC
+AT&AMP;T	I-ORG
+Charter	I-ORG
+Now	B-PER
+join	B-ORG
+Johnny	I-PER
+Pope	B-PER
+Talwinder	I-PER
+German	I-ORG
+Tiffany	I-ORG
+Wrestling	I-ORG
+Pacific	I-FAC
+believes	B-PER
+purge	B-GPE
+Muhammad	I-PER
+Jack''	I-PER
+Yoko	I-PER
+9th	I-ORG
+Caravan	I-ORG
+criticizing	B-GPE
+Astronaut	B-PER
+Microsoft	I-ORG
+SG	I-ORG
+dissolve	B-ORG
+F.	I-PER
+Harold	I-PER
+control	B-GPE
+buying	B-ORG
+Cate	I-PER
+Northern	I-LOC I-ORG
+give	B-PER
+Kathleen	I-PER
+Media	I-ORG
+Gannett	I-ORG
+Laureen	I-PER
+Ralph	I-PER
+Jerry	I-PER
+agent	B-PER
+Houston	I-ORG
+Liberation	I-ORG
+Mr.	B-PER
+Speaker	B-PER
+Abu	I-PER
+want	B-PER B-GPE
+Dutch	I-ORG
+Policy	I-ORG
+Party	I-ORG
+Lipper	I-ORG
+condemn	B-GPE
+ultranationalist	B-ORG
+Thorbjoern	I-PER
+Federation	I-ORG
+Donna	I-ORG
+Internal	I-ORG
+ST.	I-GPE
+criticizes	B-PER B-GPE
+Josef	I-PER
+Wall	I-ORG
+reinstated	B-PER
+Spray	I-ORG
+Gaspard	I-PER
+Hartford	I-ORG
+Jack	I-PER
+Ljeka	I-PER
+Louis	I-ORG
+Juleanna	I-PER
+Josep	I-PER
+Stock	I-ORG
+opposition	B-ORG
+Lionel	I-PER
+Basset	I-PER
+Television	I-ORG
+ABC	I-ORG
+Don	I-PER
+Triple	I-PER
+L.	I-PER
+Joel	I-PER
+after	B-ORG B-PER
+Chapman	I-ORG
+British	I-ORG I-GPE
+Foreign	I-ORG
+Will	B-PER
+Bell	I-FAC
+paced	B-ORG
+president	B-PER
+law	I-ORG
+upstate	I-LOC
+Carlos	I-PER
+a	B-GPE
+Vojislav	I-PER
+Ali	I-PER
+counter	B-GPE
+think	B-ORG B-PER
+Middle	I-LOC I-GPE
+Soup	I-ORG
+Weather	I-ORG
+Indo-Canadian	I-ORG
+allow	B-PER B-GPE
+Elaine	I-PER
+Andrew	I-PER
+Blue	I-ORG
+Mel	I-PER
+What	B-PER
+welcomed	B-GPE
+,'''	B-PER
+over	B-ORG B-PER B-GPE
+Mike	I-PER
+soon	B-PER
+South	I-GPE I-ORG
+ReplayTV	I-ORG
+ended	B-PER
+Ontario	I-ORG
+through	B-GPE
+during	B-PER
+derided	B-GPE
+Texas	B-ORG I-ORG
+bombing	B-VEH
+24	B-ORG
+Marco	I-PER
+Hero	I-ORG
+SAN	I-GPE
+Emergency	I-ORG
+Exchange	I-ORG
+,	B-ORG B-PER B-GPE B-LOC
+Carnegie	I-ORG
+winning	B-ORG
+destroyed	B-PER
+Fisheries	I-ORG
+400	I-LOC
+Judge	B-PER
+World	I-ORG
+weeks	B-PER
+Banda	I-GPE
+Grace	I-PER
+outside	B-GPE
+versus	B-PER
+then	B-PER
+return	B-GPE
+Cable	I-ORG
+northwestern	B-LOC
+Miami	I-ORG
+Royal	I-ORG I-PER
+Socialist	I-ORG
+Michael	I-PER
+denounced	B-PER
+Duane	I-PER
+Herbert	I-PER
+disparaged	B-PER
+Right	I-ORG
+Can	B-ORG B-PER
+Gaza	I-LOC
+Social	I-ORG
+Alvin	I-PER
+Greenwood	I-ORG
+Gerhard	I-PER
+Caisse	I-ORG
+Supreme	I-ORG
+San	I-GPE I-ORG
+Sam	I-PER
+trailed	B-PER
+Holbrook	I-ORG
+Salim	I-PER
+Integral	I-ORG
+Aaron	I-PER
+Copley	I-ORG
+--	B-PER
+Milan	I-PER
+Rubens	I-PER
+Council	I-ORG
+Petit	I-FAC
+Stanley	I-PER
+Tamara	I-PER
+giving	B-ORG
+Ambrosio	I-PER
+Ray	I-PER
+Airbus	I-ORG
+Felix	I-PER
+End	I-ORG
+fired	B-PER
+Accreditation	I-ORG
+/The	B-ORG
+Museum	I-ORG
+crimes	I-ORG
+Mort	I-PER
+challenger	B-PER
+Joseph	I-PER
+Washington,	I-GPE
+year	B-PER
+Laurent	I-PER
+naming	B-GPE
+Lacina	I-PER
+out	B-ORG B-PER
+Ken	I-PER
+E.	I-PER
+Babe	I-PER
+Elizabeth	I-PER
+everything	B-ORG
+Viktor	I-PER
+CEO	B-PER
+Chancellor	B-PER
+Clerk	B-PER
+Samuel	I-PER
+J.	I-PER
+trusts	B-GPE
+William	I-PER
+replacing	B-PER
+mate	B-PER
+Joe	I-PER
+Jakarta	I-ORG
+Army	I-ORG
+Hole	I-FAC
+replaces	B-PER
+Medical	I-FAC
+Jon	I-PER
+Jeanne	I-PER
+Commerce	I-ORG
+Haifa	I-PER
+polling	I-ORG
+Rosalinda	I-PER
+Ananta	I-PER
+University	I-FAC I-ORG
+Hani	I-PER
+Celestine	I-PER
+faulting	B-PER
+Republican	B-PER I-ORG
+Circuit	I-ORG
+imagine	B-GPE
+backed	B-PER
+North	I-GPE I-ORG
+Security	I-ORG
+Ocean	I-ORG
+Investments	I-ORG
+Garth	I-PER
+Angeles	I-FAC I-ORG
+Traverse	I-GPE
+Aceh	I-ORG
+mainland	B-GPE
+People	I-ORG
+Boston	I-LOC I-ORG
+Tareq	I-PER
+impose	B-GPE
+put	B-ORG B-PER
+Ronda	I-PER
+tracked	B-PER
+Defenseman	B-PER
+Joseph's	I-FAC
+aboard	B-VEH
+Human	I-ORG
+Academy	I-ORG
+Higher	I-ORG
+Mandala	I-PER
+Eric	I-PER
+Canadian	I-PER
+Wadsworth	I-PER
+enraged	B-GPE
+Sanford	I-ORG
+suspend	B-PER
+Island	I-ORG
+Palestinian	I-ORG I-GPE
+I-AA	B-ORG
+Oklahoma	I-ORG
+Fateh	I-PER
+powerful	B-ORG
+owned	B-ORG
+one	B-PER
+Gen.	B-PER
+Manuel	I-PER
+Track	I-ORG
+Electric	I-ORG
+Theater	I-ORG
+owner	B-PER
+Jackson	I-FAC
+Antasari	I-PER
+Boris	I-PER
+given	B-PER
+Howard	I-PER
+Transportation	I-ORG
+For	B-PER
+Courier	I-ORG
+Centre	I-FAC
+leading	B-GPE
+J.P.	I-ORG
+Reader's	I-ORG
+Avaya	I-ORG
+Coast	I-ORG
+militant	B-ORG
+Environmental	I-ORG
+attack	B-PER
+station	B-ORG
+SEC	B-ORG
+listed	B-ORG
+Press	I-ORG
+Mounted	I-PER
+sidelining	B-PER
+Italian	I-LOC
+Marge	I-PER
+Firstsource	I-ORG
+enforcement	I-ORG
+Ahmed	I-PER
+murder	B-PER
+Estee	I-ORG
+Justin	I-PER
+Adelphia	I-ORG
+Rev.	B-PER
+Patrick	I-PER
+acquire	B-ORG
+Sunil	I-PER
+Patricia	I-PER
+Raul	I-PER
+because	B-ORG B-PER B-GPE
+Victory	I-ORG
+IMUnified,	I-ORG
+Beverly	I-PER
+probably	B-PER
+Kurt	I-PER
+Democratic	I-ORG
+convinced	B-PER
+Zoran	I-PER
+Road	I-ORG
+Village	I-ORG
+So	B-PER
+Yitzhak	I-PER
+Rod	I-PER
+Classical	I-ORG
+Gennady	I-PER
+Winn-Dixie	I-ORG
+require	B-ORG
+conscious	B-GPE
+see	B-ORG B-PER
+spokeswoman	B-PER
+Hubert	I-PER
+Banc	I-ORG
+visited	B-PER
+toward	B-ORG
+Defendants	B-PER
+Cecil	I-PER
+Northwest	I-ORG
+and	B-GPE B-ORG B-PER B-FAC I-ORG B-LOC
+Fortuna	I-PER
+Alun	I-PER
+Fyens	I-ORG
+Court	I-ORG
+Adam	I-PER
+Richard	I-PER
+Chicago	I-FAC I-ORG
+Automobile	I-ORG
+Gridiron	I-ORG
+Electoral	I-ORG I-PER
+,''	B-ORG B-PER
+Douglas	I-PER
+Orange	I-GPE
+defending	B-GPE
+have	B-ORG B-PER
+Tinley	I-GPE
+Jody	I-PER
+my	B-PER
+Soccer	I-ORG
+Pan	I-VEH
+sell	B-ORG
+forced	B-PER
+Rachel's	I-FAC
+Christian	I-ORG I-PER
+N.	I-PER
+Power	I-ORG
+presents	B-PER
+Jewish	B-LOC
+assails	B-PER
+After	B-ORG B-PER
+-	B-ORG B-GPE
+Myron	I-PER
+investment	I-ORG
+Beit	I-GPE
+without	B-PER
+Minister	B-PER
+which	B-PER B-GPE
+punish	B-GPE
+SULPHUR	I-GPE
+Ephraim	I-PER
+With	B-PER
+Hall	I-ORG
+quarterback	B-PER
+Revolutionary	I-ORG
+even	B-GPE
+Unlike	B-PER
+though	B-PER
+winless	B-ORG
+sue	B-ORG
+Governor	B-PER
+Library	I-FAC
+Communications	I-ORG
+Chief	B-PER
+hired	B-PER
+stormed	B-GPE
+Ivan	I-PER
+The	B-GPE B-ORG I-GPE B-PER I-ORG B-LOC
+Conrad	I-PER
+why	B-ORG B-PER
+Naturalization	I-ORG
+Bernie	I-PER
+D.	I-PER
+Attorney	B-PER
+Aidan	I-PER
+Chamber	I-ORG
+Hosni	I-PER
+neighboring	B-GPE
+later	B-PER
+with	B-ORG B-PER B-GPE
+Secretary-General	B-PER
+Bruce	I-PER
+Donald	I-PER
+Chen	I-PER
+businessman	B-PER
+&AMP;	I-ORG
+If	B-ORG B-PER
+Fidelity	I-ORG
+Bishop	B-PER
+Gabrielle	I-ORG
+saying	B-PER
+Narita	I-FAC
+WB	I-ORG
+contacted	B-PER
+show	B-PER B-GPE
+Union	I-ORG
+Barry	I-PER
+Tara	I-PER
+supported	B-PER
+LONGBOAT	I-GPE
+Mississippi	I-LOC
+ending	B-GPE
+moderator	B-PER
+bring	B-PER
+juror	B-PER
+Stephen	I-PER
+Napster	I-ORG
+Macomb	I-FAC
+find	B-PER
+Congressional	I-ORG
+staff	B-PER
+Kathy	I-PER
+As	B-PER B-GPE
+giant	B-ORG
+Gene	I-PER
+northern	B-LOC
+Saddam	I-FAC I-PER
+(	B-ORG B-PER
+A.G.	I-ORG
+Kansas	I-ORG
+state	B-ORG
+Free	I-ORG
+Fred	I-PER
+Jean-Bertrand	I-PER
+Sons	I-ORG
+York	I-ORG
+Chi	I-GPE
+Dirk	I-PER
+communist	B-GPE
+Grigory	I-PER
+Giuliano	I-PER
+Dove	I-GPE
+personality	B-PER
+Applied	I-ORG
+Merrill	I-ORG
+his	B-ORG
+dominant	B-ORG
+get	B-PER B-GPE
+beat	B-ORG
+Aiden	I-PER
+de	I-ORG
+watch	B-PER
+Jaromir	I-PER
+GROSSE	I-GPE
+Arik	I-PER
+While	B-ORG B-PER
+Mullah	I-PER
+Newport	I-GPE
+Jorma	I-PER
+On	B-ORG
+new	B-FAC
+Popular	I-ORG
+Organization	I-ORG
+coaches	B-PER
+Rodney	I-PER
+;	B-PER B-GPE
+Amir	I-PER
+Because	B-PER
+Fife	I-GPE
+showed	B-PER
+concerned	B-ORG
+Riccardo	I-PER
+W.	I-PER
+married	B-PER
+Washington	I-FAC I-ORG I-GPE
+remove	B-PER
+Kong	I-ORG
+Toni	I-PER
+Mackenzie	I-ORG
+Ujjal	I-PER
+predicted	B-PER
+Craig	I-PER
+including	B-ORG B-PER B-GPE
+Fort	I-ORG
+where	B-ORG B-PER
+Networks	I-ORG
+Brent	I-PER
+Komsomolskaya	I-ORG
+Mayor	B-PER
+:	B-PER B-GPE
+FIFE	I-GPE
+HONG	I-GPE
+District	I-GPE I-ORG
+National	I-ORG
+subsidizing	B-ORG
+Fox	I-ORG
+Inaugural	I-ORG
+around	B-GPE B-LOC
+Zoo	I-ORG
+defenseman	B-PER
+accused	B-ORG B-PER
+van	I-PER
+Debbie	I-PER
+Justices	B-PER
+Grand	I-ORG
+Natural	I-ORG
+John	I-FAC I-PER
+Gartner	I-ORG
+Po	I-LOC
+incorporating	B-GPE
+Walt	I-ORG
+Indonesian	B-GPE
+said	B-ORG B-PER B-GPE
+-occupied	B-LOC
+Murray	I-PER
+Joanne	I-PER
+federal	B-FAC B-ORG
+Greenbrier	I-FAC
+46-year-old	B-PER
+Park	I-FAC I-ORG
+Oregon	I-ORG
+label	B-PER
+Mikhail	I-PER
+Razzak	I-PER
+Berlin	I-FAC
+won	B-GPE
+Gallup	I-ORG
+House	I-ORG
+between	B-ORG B-PER B-GPE
+affecting	B-GPE
+Cuming	I-GPE
+before	B-ORG B-PER B-GPE
+linebacker	B-PER
+across	B-FAC B-LOC B-GPE
+Advanced	I-ORG
+Cycle	I-ORG
+Broncos	I-ORG
+gives	B-GPE
+ends	B-PER
+Irish	I-LOC
+Sen.	B-PER
+Sea	I-ORG
+Johnson	I-ORG I-PER
+targeted	B-ORG
+Florida	B-ORG I-ORG
+Tribal	I-ORG
+Gary	I-PER
+Jessica	I-PER
+Democrat	B-PER
+Securities	I-ORG
+Hollinger	I-ORG
+Janus	I-ORG
+Trimark	I-ORG
+extent	B-ORG
+African	I-ORG
+Nasser	I-PER
+group	B-ORG
+Maurice	I-PER
+P.	I-PER
+Detective	B-PER
+blame	B-PER
+Peter	I-PER
+acquiring	B-ORG
+reverse	B-PER
+taking	B-ORG
+Irma	I-PER
+Kurtis	I-PER
+against	B-ORG B-PER B-GPE
+declare	B-PER
+Steve	I-PER
+prefer	B-PER
+Spy	I-ORG
+became	B-ORG
+Todd	I-PER
+Green	I-GPE I-ORG
+BANDA	I-GPE
+Edward	I-PER
+asked	B-PER B-GPE
+Monty	I-PER
+MSN	I-ORG
+among	B-PER
+Bay	I-FAC I-ORG
+rounders	B-PER
+Compaq	I-ORG
+Center	I-ORG
+Affairs	I-FAC
+Roni	I-PER
+Artificial	I-ORG
+Monetary	I-ORG
+G.W.	I-PER
+Stephan	I-PER
+Drew	I-PER
+church	I-ORG
+Pat	I-PER
+Willie	I-PER
+Hussein	I-PER
+Disney	I-ORG
+Griffey	I-PER
+teammate	B-PER
+C.	I-ORG I-PER
+asks	B-PER
+west	I-LOC
+Immigration	I-ORG
+But	B-ORG B-PER
+Camelot	I-ORG
+European	I-GPE I-ORG
+Protection	I-ORG
+dictator	B-PER
+change	B-PER
+Carl	I-PER
+Sandra	I-PER
+poet	B-PER
+-controlled	B-GPE
+Astrid	I-PER
+estimated	B-GPE
+killed	B-PER
+board	I-ORG
+Material	I-ORG
+Exxon	I-ORG
+Manhattan	I-ORG
+champion	B-PER
+Abdul	I-PER
+both	B-PER
+fire	B-PER
+Faustino	I-PER
+Helen	I-PER
+Gov.	B-PER
+Carolina	I-ORG
+Airlines	I-FAC
+TiVo	I-ORG
+fund	B-ORG
+UNITED	I-FAC
+recalled	B-PER
+Saudi	I-GPE
+Jimmy	I-PER
+Action	I-ORG
+incoming	B-ORG
+Harriet	I-PER
+Trans	I-ORG
+Guenther	I-PER
+former	B-PER
+C.I.	I-ORG
+Secretary	B-PER
+And	B-PER B-GPE
+Dries	I-PER
+Statuary	I-FAC
+Force	I-VEH
+Concert	I-ORG
+Kenneth	I-PER
+indicted	B-PER
+International	I-FAC I-ORG
+Hermes	I-ORG
+Reagan	B-ORG
+governor	B-PER
+General	I-ORG I-PER
+admire	B-PER
+near	B-FAC B-GPE
+Persian	I-LOC
+College	I-ORG
+Alfonso	I-PER
+Intelligence	I-ORG
+Campbell	I-ORG
+Najid	I-PER
+Continental	I-FAC
+gave	B-PER
+Mercer	I-PER
+anchor	B-PER
+Alexander	I-PER
+Queen	B-PER
+Joint	I-ORG
+Moet	I-ORG
+Kathleene	I-PER
+is	B-ORG B-PER B-GPE
+Edwards	I-ORG
+site	B-ORG
+LOS	I-GPE
+Bush	B-ORG
+Constable	B-PER
+Chess	I-ORG
+Capital	I-ORG
+Bluegill	I-FAC
+Larry	I-PER
+Nidal	I-PER
+Beach	I-GPE
+SmithKline	I-ORG
+AIC	I-ORG
+if	B-ORG B-PER
+Amvescap	I-ORG
+confirmed	B-PER
+Depot	I-ORG
+Morningstar	I-ORG
+since	B-ORG B-PER B-GPE
+CBS	I-ORG
+Lela	I-PER
+Notre	I-ORG
+CAPE	I-GPE
+Rice	I-ORG
+member	B-GPE
+speaker	B-PER
+Bloomberg	I-ORG
+James	I-PER
+shuttle	B-VEH
+President	B-PER
+Innsbrook	I-FAC
+Emerson	I-ORG
+Marcus	I-ORG I-PER
+Danny	I-PER
+Labor	I-ORG
+Salvador	I-PER
+Then	B-PER
+Leroy	I-PER
+Lorena	I-PER
+Geraldine	I-PER
+Doug	I-PER
+17-year-old	B-PER
+Karan	I-ORG
+Charles	I-PER
+director	B-PER
+Dramane	I-PER
+J.C.	I-PER
+neighbor	B-GPE
+Reynolds,	I-ORG
+Dick	I-PER
+Flight	I-VEH
+WHITE	I-GPE
+nation	B-GPE
+Board	I-ORG
+Kristen	I-PER
+Minh	I-GPE
+Herald	I-ORG
+Slobodan	I-PER
+in	B-ORG B-FAC B-PER B-GPE B-LOC
+center	B-PER
+Latin	I-GPE
+Senate	B-ORG
+Border	I-ORG
+Julie	I-PER
+Airways	I-ORG
+agency	B-ORG
+Sonja	I-PER
+southeastern	I-LOC
+Brian	I-PER
+Economic	I-ORG
+Walter	I-PER
+In	I-ORG B-GPE
+Welch	I-PER
+the	B-GPE B-ORG B-PER B-FAC I-ORG B-LOC
+Dennis	I-PER
+Mobil	I-ORG
+Karl	I-PER
+left	B-PER
+Pete	I-PER
+restore	B-PER
+United	I-GPE I-ORG
+Wellcome	I-ORG
+guided	B-ORG
+executive	B-PER
+Woodland	I-FAC I-GPE
+actress	B-PER
+59-year-old	B-PER
+seen	B-PER
+Newspaper	I-ORG
+__START__	B-ORG B-FAC B-PER B-GPE B-LOC
+Chairman	B-PER
+behind	B-PER
+Das	I-ORG
+R.	I-PER
+T.J.	I-PER
+Saedi	I-PER
+letting	B-ORG
+Vicente	I-PER
+shaken	B-PER
+urged	B-PER B-GPE
+purchased	B-ORG
+Islamic	I-ORG
+Emory	I-ORG
+had	B-PER
+discuss	B-PER
+Margaret	I-PER
+lets	B-ORG
+highlighting	B-PER
+Christopher	I-PER
+Aquarium	I-ORG
+Although	B-ORG B-PER
+presidents	B-PER
+Front	I-ORG
+News	I-ORG
+struck	B-GPE
+Marine	I-ORG
+St.	I-FAC I-GPE I-LOC
+Newt	I-PER
+Yasser	I-PER
+Ian	I-PER
+Sprint	I-ORG
+Roberta	I-PER
+Kim	I-PER
+Jacques	I-PER
+Mona	I-PER
+Kofi	I-PER
+stung	B-PER
+Worth	I-ORG
+Francisco	I-ORG
+Air	I-VEH
+Spokeswoman	B-PER
+Micro	I-ORG
+press	B-PER
+Cincinnati	I-ORG
+depicts	B-PER
+U.N.	B-ORG
+Daily	I-ORG
+Nahman	I-PER
+forcing	B-PER
+Cisco	I-ORG
+like	B-ORG B-FAC B-GPE B-PER
+Los	I-FAC I-ORG
+indicting	B-PER
+UBS	I-ORG
+White	I-FAC I-ORG I-PER
+Neiman	I-ORG
+Mladjan	I-PER
+Scarlet	I-ORG
+benefit	B-PER
+continue	B-GPE
+London	I-ORG
+either	B-ORG B-PER
+Steven	I-PER
+Voter	I-ORG
+Cardinal	B-PER
+Morning	I-ORG
+B.	I-PER
+inexperienced	B-PER
+),	B-PER
+Gibson's	I-ORG
+attorney	B-PER
+55-year-old	B-PER
+old	B-PER
+Gulf	I-LOC I-ORG
+savages	B-PER
+Sun	I-ORG
+Since	B-ORG
+back	B-PER
+Banker	B-ORG I-ORG
+Mark	I-PER
+Commission	I-ORG
+Kahn	I-PER
+Conservation	I-ORG
+Andy	I-PER
+debating	B-PER
+Tina	I-PER
+Dr.	B-PER
+Study	I-ORG
+New	I-LOC I-GPE I-ORG
+Jonathan	I-PER
+Mary	I-PER
+Egon	I-PER
+congratulate	B-PER
+Rally	I-ORG
+Institute	I-ORG
+Lee	I-PER
+for	B-ORG I-ORG B-GPE B-PER
+-general	B-PER
+Pittsburgh	I-ORG
+Frank	I-PER
+Tides	I-ORG
+candidate	B-PER
+Seventh	I-LOC
+conservative	B-GPE
+Tim	I-PER
+Fund	I-ORG
+Dave	I-PER
+Planning	I-ORG
+Massachusetts	I-ORG
+denied	B-PER
+Chris	I-PER
+Aviation	I-ORG
+Vaughn	I-PER
+commentator	B-PER
+leader	B-PER
+Cross	I-ORG
+be	B-GPE
+School	I-ORG
+run	B-ORG
+Angela	I-PER
+O'Hare	I-FAC
+Circuits	I-ORG
+Baker	I-PER
+Bill	I-PER
+expansion	B-ORG
+David	I-PER
+how	B-PER
+Radcliffe	I-ORG
+Lt.	B-PER
+Place	I-ORG
+paid	B-PER
+Rock	I-ORG
+Alfie	I-PER
+chairman	B-PER
+pitchers	B-PER
+Paco	I-PER
+Gerrie	I-PER
+by	B-ORG B-PER B-GPE
+_	B-ORG B-FAC B-GPE B-PER
+Clarence	I-PER
+Kendall	I-PER
+on	B-GPE B-ORG B-PER B-FAC I-ORG B-LOC
+about	B-PER B-GPE
+Revolution	I-ORG
+Gaston	I-PER
+carried	B-GPE
+Ron	I-PER
+Revenue	I-ORG
+of	I-FAC B-GPE I-LOC B-ORG B-VEH I-ORG B-PER B-FAC I-GPE B-LOC
+Rob	I-PER
+&	I-ORG
+favorite	B-PER
+assault	B-PER
+recognized	B-PER
+Trade	I-ORG
+Blanche	I-PER
+magazine	B-ORG
+Paper	I-ORG
+H.	I-PER
+Digest	I-ORG
+Committee	I-ORG
+Dorothy	I-PER
+introduced	B-PER
+or	B-ORG B-FAC B-PER
+block	B-PER
+Katie	I-PER
+oversaw	B-ORG
+Express	I-ORG
+-elect	B-PER
+Shaw	I-GPE
+Zhonghe	I-PER
+Dallas	I-ORG
+Vince	I-PER
+into	B-ORG B-FAC B-GPE B-PER
+within	B-GPE
+Bowl	I-ORG
+Sue	I-PER
+combine	B-ORG
+Few	B-PER
+Joaquin	I-PER
+Management	I-ORG
+been	B-ORG B-GPE
+Jeannette	I-PER
+U.S.	I-ORG
+NEW	I-GPE
+Korean	I-ORG
+Warren	I-PER
+Harvey	I-PER
+Roberto	I-PER
+.)	B-ORG
+Ivory	I-GPE I-ORG
+.,	B-PER
+than	B-PER
+Lawrence	I-PER
+Juan	I-PER
+Marc	I-PER
+Alain	I-PER
+Stansted	I-FAC
+Anthony	I-PER
+Linda	I-PER
+appeal	B-PER
+way	B-PER
+Gerald	I-PER
+NBC	I-ORG
+Cedar	I-GPE
+Amr	I-PER
+was	B-PER
+war	I-ORG
+Raed	I-PER
+COSTA	I-GPE
+bought	B-ORG
+needled	B-PER
+Rocky	I-FAC
+form	B-GPE
+Harri	I-PER
+Arizona	I-ORG
+Des	I-GPE
+Ellen	I-PER
+deny	B-PER
+but	B-ORG B-PER
+Tommy	I-PER
+Stan	I-PER
+Ajaib	I-PER
+Limestone	I-GPE
+hear	B-ORG
+Franklin	I-PER
+Healthcare	I-ORG
+Jean	I-PER
+Highland	I-LOC
+Consumer	I-ORG
+analyst	B-PER
+Floricel	I-PER
+imprison	B-PER
+Sgt.	B-PER
+Golden	I-FAC
+hire	B-PER
+made	B-PER
+Placement	I-ORG
+conglomerate	B-ORG
+Jeff	I-PER
+whether	B-ORG B-PER B-GPE
+Augusto	I-PER
+wife	B-PER
+Ted	I-PER
+up	B-ORG B-PER
+Leon	I-GPE
+until	B-PER
+County	I-FAC I-ORG
+celebrating	B-ORG
+below	B-GPE
+convince	B-PER
+division	I-ORG
+ruling	B-ORG
+Palestine	I-ORG
+Geneva	I-ORG
+Tony	I-PER
+Elvis	I-PER
+Rebecca	I-PER
+called	B-ORG
+Jesse	I-PER
+)	B-GPE
+DeWitt	I-ORG
+Time	I-ORG
+Executive	B-PER
+ordered	B-PER
+Granada	I-ORG
+West	I-LOC I-FAC I-ORG I-PER I-GPE
+Am	I-VEH
+combining	B-ORG
+Josh	I-PER
+Christina	I-PER
+Al	I-PER
+''	B-ORG B-PER
+coordinator	B-PER
+as	B-ORG B-PER B-GPE
+Georgia	I-ORG
+at	B-ORG I-ORG B-FAC B-GPE B-PER
+et	I-ORG
+Sierra	I-ORG
+B.K.	I-PER
+Singh	I-PER
+Veterans	I-FAC
+Tuscaloosa	I-ORG
+are	B-ORG
+pitched	B-ORG
+hit	B-GPE
+High	I-FAC I-ORG
+Lamen	I-PER
+Jake	I-PER
+Curtis	I-PER
+POINTE	I-GPE
+Abdurrahman	I-PER
+Fidel	I-PER
+May	I-PER
+when	B-PER B-GPE
+Hennessy	I-ORG
+Greg	I-PER
+A.	I-PER
+Yehuda	I-LOC
+Mario	I-PER
+that	B-ORG B-PER B-GPE
+compares	B-GPE
+Egyptian	B-PER
+overturning	B-ORG
+Football	I-ORG
+Law	I-ORG
+Jeffrey	I-PER
+al	I-PER
+Commissioner	B-PER
+poor	B-PER
+Michele	I-PER
+Strom	I-PER
+Humanitarian	I-ORG
+'s	B-ORG B-PER B-GPE
+Like	B-PER
+Vladimir	I-PER
+Art	I-PER
+Julius	I-PER
+KLM	I-ORG
+City	I-ORG
+become	B-ORG
+Fernando	I-PER
+trans-	B-LOC
+du	I-ORG
+Peter's	I-FAC
+allowing	B-PER
+Morgan	I-ORG
+Haitham	I-PER
+Bashar	I-PER
+'m	B-PER
+Baltimore	I-ORG
+Seoul	I-FAC
+Carting	I-ORG
+Major	I-ORG
+Coach	B-PER
+Fordham	I-FAC
+Mika	I-PER
+admires	B-PER
+described	B-PER
+Radical	I-ORG
+raging	B-LOC
+space	I-FAC
+big	I-GPE
+Mission	I-ORG
+daily	B-ORG
+Air-India	B-VEH
+Hardware	I-ORG
+2000	I-ORG
+Street	I-ORG
+Scott	I-PER
+At	B-ORG
+Institutional	I-ORG
+time	B-GPE
+Alassane	I-PER
+Hafez	I-PER
+Empire	I-ORG
+Mahane	I-LOC
+requires	B-PER
+Michigan	B-ORG
+Times	I-FAC I-ORG
+Cowen	I-ORG

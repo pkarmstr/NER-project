@@ -8,15 +8,15 @@ from collections import namedtuple, defaultdict
 __author__ = "Julia B.G. and Keelan A."
 
 ENGLISH_DICTIONARY = enchant.Dict("en_US")
-FUNCTION_WORDS = set(open("resources/function_words.txt","r").readlines())
-NOUN_SUFFIXES = set(open("resources/noun_suffixes.txt","r").readlines())
-ADJ_SUFFIXES = set(open("resources/adj_suffixes.txt","r").readlines())
-VERB_SUFFIXES = set(open("resources/verbal_suffixes.txt","r").readlines())
-CORP_SUFFIXES = set(open("resources/corporate_suffix_list.txt","r").readlines())
-LOCATIONS = set(open("resources/loc_list.txt","r").readlines())
-NAMES = set(open("resources/name_list.txt","r").readlines())
-ORGANIZATIONS = set(open("resources/org_list.txt","r").readlines())
-PERSON_PREFIXES = set(open("resources/person_prefix_list.txt","r").readlines())
+FUNCTION_WORDS = set(open("resources/function_words.txt","r").read().split("\n"))
+NOUN_SUFFIXES = set(open("resources/noun_suffixes.txt","r").read().split("\n"))
+ADJ_SUFFIXES = set(open("resources/adj_suffixes.txt","r").read().split("\n"))
+VERB_SUFFIXES = set(open("resources/verbal_suffixes.txt","r").read().split("\n"))
+CORP_SUFFIXES = set(open("resources/corporate_suffix_list.txt","r").read().split("\n"))
+LOCATIONS = set(open("resources/loc_list.txt","r").read().split("\n"))
+NAMES = set(open("resources/name_list.txt","r").read().split("\n"))
+ORGANIZATIONS = set(open("resources/org_list.txt","r").read().split("\n"))
+PERSON_PREFIXES = set(open("resources/person_prefix_list.txt","r").read().split("\n"))
 ALL_BIGRAMS = defaultdict(set) #treating these two like they're 'final', but in
 FREQ_DIST = defaultdict(int)   #reality, we're building them up in the set up
 USEFUL_UNIGRAM = defaultdict(set)
@@ -145,6 +145,7 @@ def all_caps(fs):
 def mixed_caps(fs):
     return "mixed_caps={}".format(not fs.token.islower() and\
                                   not fs.token.isupper() and\
+                                  not fs.token.istitle() and\
                                   fs.token.isalpha())
 
 def contains_digit(fs):
@@ -182,23 +183,23 @@ def is_person_prefix(fs):
     return "is_person_prefix={}".format(fs.token.lower() in PERSON_PREFIXES)
 
 def is_corp_suffix(fs):
-    return "is_corp_suffix={}".format(fs.token in CORP_SUFFIXES)
+    return "is_corp_suffix={}".format(fs.token.lower() in CORP_SUFFIXES)
 
 def is_location(fs):
-    return "is_location={}".format(fs.token in LOCATIONS)
+    return "is_location={}".format(fs.token.lower() in LOCATIONS)
 
 def is_name(fs):
-    return "is_name={}".format(fs.token in NAMES)
+    return "is_name={}".format(fs.token.lower() in NAMES)
 
 def is_org(fs):
-    return "is_org={}".format(fs.token in ORGANIZATIONS)
+    return "is_org={}".format(fs.token.lower() in ORGANIZATIONS)
 
 def is_month(fs): #although we could use a list instead of a regexp...but anyway 
     re_month = "((Janua|Februa)ry)|((Septem|Octo|Novem|Decem)ber)|(March|April|May|June|July|August)"
     return "is_month={}".format(bool(re.match(re_month,fs.token)))
 
 def is_oov(fs):
-    return "is_oov={}".format(ENGLISH_DICTIONARY.check(fs.token))
+    return "is_oov={}".format(ENGLISH_DICTIONARY.check(fs.token.lower()))
 
 ##################
 # local features #
@@ -311,16 +312,16 @@ def get_all_features(): #make sure to keep updated
     return FeatureBox(unigram_features, local_features, global_features)
     
 def main():
-    if len(sys.argv) >= 3:
+    if len(sys.argv) < 3:
         print "Usage: featurizer.py [original_file] [output] [-t]"
         sys.exit(1)
     print "beginning everything"
     test = False
     try:
-        sys.argv[4]
+        sys.argv[3]
         test = True
     except IndexError:
-        continue
+        test = False
     original_feature_set = read_and_prepare_input(sys.argv[1], test=test)
     print "read in file, prepared some stuff"
     """

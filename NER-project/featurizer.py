@@ -87,7 +87,7 @@ def read_and_prepare_input(file_path, test=False):
                 ALL_BIGRAMS[prev_token].add(token)
                 FREQ_DIST[token] += 1
                 if not test and features[-1] != 'O':
-                    USEFUL_UNIGRAM[prev_token].add(features[-1])
+                    USEFUL_UNIGRAM[prev_token].add(token)
                 prev_token = token
                 sentence_index += 1
             else:
@@ -123,7 +123,7 @@ def build_feature_set(original_features, unigram_features=[],
             try:
                 nfappend(feature_set.BIO_tag)
             except AttributeError:
-                continue
+                pass
             
             nfseqappend("\t".join(new_features))
             
@@ -271,10 +271,8 @@ def period_middle_sentence(fs,sentence):
 def is_useful_unigram(fs,sentence): #words that precede tokens that are not bio “O”. 
     i = fs.sentence_index
     if i<len(sentence)-1:
-        next_word_bio = sentence[i+1].BIO_tag #dammit
-        if next_word_bio != "O\n":
-            return "is_useful_unigram={}".format(next_word_bio in USEFUL_UNIGRAM[fs.token])
-        return "is_useful_unigram=False"
+        next_token = sentence[i+1].token
+        return "is_useful_unigram={}".format(next_token in USEFUL_UNIGRAM[fs.token])
     else:
         return "is_useful_unigram=False"
 

@@ -1,1362 +1,1362 @@
 all	B-PER
-coach	B-ORG B-PER
+coach	Arizona Ron B-ORG Jim Al B-PER Dirk Dennis
 chain	B-ORG
-Peoples	I-ORG
-Jim	I-PER
+Peoples	Union I-ORG
+Jim	Lehrer Donnan I-PER Druckenmiller
 Sugar	I-ORG
-leads	B-ORG
+leads	B-ORG McLaren
 Hassan	I-PER
-protest	B-PER B-GPE
+protest	Guei Washington B-PER B-GPE
 Wayne	I-FAC I-PER
-Bond/Parkhurst	I-ORG
-Villard	I-ORG
-Department	I-ORG
+Bond/Parkhurst	I-ORG Publishing
+Villard	Books I-ORG
+Cuming	County I-GPE
+Department	of I-ORG
 Communist	I-ORG
-hate	B-GPE
+hate	America B-GPE
 Entertaining	I-ORG
-Buddy	I-PER
-Brown	I-ORG
+Buddy	I-PER Stapleton
+Brown	University I-ORG
 Geographic	I-ORG
-Onvia.com	I-ORG
-Palestine-General	I-ORG
-Barbara	I-PER
-Dan	I-PER
+Onvia.com	I-ORG Inc
+Palestine-General	Command I-ORG
+Barbara	I-PER Walters
+Dan	Rather Bartlett I-PER Quayle
 Forrester	I-ORG
 father	B-PER
 send	B-PER
-Baroness	B-PER
-Ronald	I-PER
-to	B-ORG B-PER B-GPE
-Western	I-ORG
-Rifle	I-ORG
-Atlanta	I-ORG
-include	B-ORG B-PER B-GPE
-Day	I-PER
-sent	B-PER
+Baroness	B-PER Young
+Ronald	Reagan I-PER
+to	Milosevic Airbus Arebalo God Wahid Douglas Matamoros Bush Joseph Lennon New Lipper Texas Compaq North Cuba AOL Alain Mulcahy Baghdad California B-PER Iraq Georgia B-GPE Indonesia Hollinger Asia The Microsoft Baltimore Nixon Houston B-ORG Clara London Jasper Lebanon Maine
+Western	Michigan I-ORG
+Rifle	I-ORG Association
+Atlanta	I-ORG Braves
+include	B-ORG U.S B-PER B-GPE Hicks
+Day	O'Connor I-PER
+sent	Bashar B-PER
 Dickerson	I-FAC
-League	I-ORG
-Federalist	I-ORG
-Sanctions	I-ORG
-Valle	I-LOC
-accompanied	B-PER
-Constitutional	I-ORG
-Alex	I-PER
+League	of Soccer I-ORG
+Federalist	Party I-ORG
+Sanctions	I-ORG Committee
+Valle	I-LOC d'Aosta
+Constitutional	Court I-ORG
+Alex	Rodriguez I-PER
 GE	I-ORG
-DJB	I-ORG
-putting	B-ORG
-accuse	B-PER
-Henry	I-PER
-Boy	I-ORG
+DJB	Associates I-ORG
+Elaine	Bloom I-PER
+accuse	Gelbard B-PER
+Henry	Wadsworth I-PER
 Financial	I-ORG
-Research	I-ORG
-Tommy''	I-PER
+Research	Laboratory I-ORG
 Ward	I-FAC
-Ehud	I-PER
-Ambassador	B-PER
-Thomas	I-PER
-Public	I-ORG
+Ehud	Barak I-PER
+Ambassador	Robert B-PER Richard
+Thomas	R. Jefferson J. I-PER
+Public	Policy I-ORG
 Investors	I-ORG
-Khalifa	I-PER
-Zarko	I-PER
-Keith	I-PER
-violates	B-PER
-Premier	B-PER I-ORG
-manager	B-PER
-leave	B-GPE
+Khalifa	Fhimah I-PER
+Zarko	Korac I-PER
+Keith	W. I-PER
+violates	B-PER Pinochet
+Premier	B-PER Dosanjh I-ORG
+manager	Steve Doug B-PER Johnny George
+leave	Yugoslavia B-GPE
 Ho	I-GPE
-Nasdaq	I-ORG
+Nasdaq	I-ORG Stock
 election	B-PER
-Darrell	I-PER
-Mahmoud	I-PER
+analyst	Don B-PER
+Darrell	West I-PER
+Mahmoud	Aloul I-PER
 playwright	B-PER
-Republic	I-ORG
-Paul	I-PER
-Suzanne	I-PER
+Republic	News I-ORG
+Paul	II I-PER F.
+Suzanne	I-PER Mubarak
 Carlo	I-PER
-George	I-FAC I-PER
-Kevin	I-PER
-Chase	I-ORG I-PER
-RR	I-ORG
-says	B-PER
-leaders	B-PER
-insignificant	B-ORG
-Dewi	I-PER
-M.	I-PER
-Denver	I-ORG
-Glaxo	I-ORG
-State	I-ORG B-PER
+George	Larson I-FAC W. Washington I-PER Bush
+Kevin	Sommers I-PER Rogers
+Chase	I-ORG I-PER Manhattan
+RR	I-ORG Investments
+says	Rodriguez B-PER
+leaders	B-PER Vladimir
+insignificant	NPD B-ORG
+Dewi	Fortuna I-PER
+M.	Perry I-PER
+Denver	Broncos I-ORG
+Glaxo	Wellcome I-ORG
+State	University I-ORG B-PER Duma
 persuade	B-PER
-Rick	I-PER
-lawyer	B-PER
-Heritage	I-FAC
-Braca	I-PER
+Rick	Perry I-PER
+lawyer	Bill B-PER David
+Heritage	High I-FAC
+Braca	Grubacic I-PER
 Word	I-ORG
-East	I-LOC I-GPE I-ORG
-Dauphin	I-ORG
-Fucheng	I-PER
+East	Conference I-LOC I-GPE Timor I-ORG Texas
+Dauphin	Island I-ORG
+Fucheng	I-PER Zhang
 Red	I-ORG
-Dianne	I-PER
-Goeran	I-PER
+Dianne	Byrum I-PER
+Goeran	I-PER Persson
 enticing	B-GPE
-what	B-PER B-GPE
-Korea	I-ORG
-plays	B-PER
-Janet	I-PER
-representative	B-PER
--based	B-ORG
-Wolfgang	I-PER
+what	Bush B-PER B-GPE
+Korea	I-ORG Electric
+plays	Sarah B-PER
+Janet	Brown I-PER
+representative	Lacina B-PER
+-based	Center Palestinian B-ORG Carnegie College AT&AMP;T
+Wolfgang	Clement I-PER
 Sherman	I-GPE
-while	B-PER B-GPE
-Alan	I-PER
-Boise	I-ORG
-spokesman	B-PER
-far-right	B-ORG
+while	B-PER B-GPE Gore
+Alan	Greenspan Turnbull Skrainka Feduccia I-PER
+Boise	State I-ORG
+spokesman	Nahman Dan Marco Jake B-PER
+far-right	B-ORG National
 Roundabout	I-ORG
-commissioner	B-PER
-capital	B-GPE
-international	I-FAC I-ORG
-learned	B-PER
-America	I-ORG
+capital	Banda Duesseldorf B-GPE
+bombing	B-VEH Pan
+international	I-FAC I-ORG war space
+learned	B-PER Al
+America	Securities I-ORG Online
 Hong	I-GPE I-ORG
-Presidential	I-ORG
-told	B-ORG B-PER
-Arena	I-ORG
-supporting	B-GPE
-Rush	I-PER
+Presidential	I-ORG Debates
+told	Associated Shea B-ORG Focus B-PER CNN
+Arena	Football I-ORG
+supporting	Yugoslavia B-GPE
+Rush	Holt I-PER
 Motorola	I-ORG
-Bishops	I-ORG
+Bishops	Conference I-ORG
+Governor	Bush B-PER
 Freedom	I-ORG
-Claire	I-PER
-Mohammed	I-PER
-Madeha	I-PER
-Arthur	I-PER
-let	B-PER
-Glover	I-PER
-Clay	I-PER
-Irian	I-GPE
-Coldwell	I-ORG
-Terry	I-PER
-Reggie	I-PER
-Confederation	I-ORG
-publisher	B-PER
-search	B-PER
-Associated	I-ORG
+Mohammed	Abu I-PER Omar
+Madeha	I-PER Yusri
+Arthur	Levitt I-PER
+let	Suharto B-PER
+Glover	I-PER Weiss
+Clay	Shaw I-PER
+Irian	Jaya I-GPE
+Coldwell	I-ORG Banker
+Terry	Holt Don Sawchuk I-PER Shea
+Confederation	of I-ORG
+publisher	Larry B-PER
+search	B-PER Juncaj
+Associated	Press I-ORG
 Yola	I-PER
-Chinese	I-ORG
-receive	B-PER
+Chinese	Academy I-ORG
+receive	Chirac B-PER
 involved	B-PER
 Manufacturers	I-ORG
-Clara	I-PER
-Jennifer	I-PER
+Clara	Szczaranski I-PER
+Jennifer	I-PER Backus
 Azeglio	I-PER
-suggests	B-GPE
-Associates	I-ORG
+suggests	Britain B-GPE
+Associates	LLC I-ORG
 Palm	I-GPE
-developer	B-PER
-Little	I-GPE
-Big	I-ORG
-Abdel	I-PER
-extends	B-GPE
-B.J.	I-PER
-maker	B-ORG
-Phonographic	I-ORG
-Golan	I-LOC
-Mountain	I-FAC I-GPE
+Big	East I-ORG
+Abdel	Basset Jawad I-PER
+extends	Germany B-GPE
+B.J.	Habibie I-PER
+maker	B-ORG Cisco Johnson
+Phonographic	Industry I-ORG
+Golan	I-LOC Heights
+Mountain	I-FAC I-GPE Arsenal
 Style	I-ORG
-via	B-ORG B-GPE
-Gush	I-GPE
+via	B-ORG Jordan B-GPE
+Saedi	I-PER
 Reform	I-ORG
-Justice	B-PER
+Justice	William Samuel Roger B-PER Felix
 win	B-GPE
-Robert	I-PER
-manage	B-PER
-When	B-VEH B-PER
-Relations	I-ORG
-replace	B-ORG B-PER
-Jeb	I-PER
-ask	B-PER
+Robert	Labatt Guei E. LaFollette I-PER Gelbard
+manage	B-PER Kostunica
+When	B-VEH B-PER Discovery
+)	B-GPE
+Relations	I-ORG Committee
+replace	B-ORG Nixon Shea J.P. B-PER
+Jeb	Bush I-PER
+ask	Clinton B-PER
 Joerg	I-PER
 Gisela	I-PER
-Health	I-ORG
-S.	I-PER
-composer	B-PER
-Tom	I-PER
-Basil	I-PER
-Joni	I-PER
+Health	and I-ORG
+S.	I-PER Dukakis
+composer	Mikhail B-PER Alexander
+Tom	Brokaw I-PER Hicks
+Basil	DeVito I-PER
+Joni	Finney I-PER
 should	B-PER
-Godfried	I-PER
-Bob	I-PER
-Dale	I-GPE
+Godfried	Danneels I-PER
+Bob	Ayling Schieffer Dole Stein I-PER
+Dale	County I-GPE
 Sanders	I-PER
-use	B-ORG B-FAC
-from	B-ORG B-LOC B-FAC B-GPE B-PER
-Hewlett-Packard	I-ORG
-Beecham	I-ORG
+use	B-ORG America B-FAC
+from	Canada Shaw God Matamoros Tyler Gaza Arizona North Seoul Tides Montenegro Microsoft B-PER B-FAC Serbia B-GPE Pennsylvania Indonesia Hawaii Vietnam Russia Kamloops Rodriguez B-ORG Washington Japan B-LOC
+Hewlett-Packard	Corp I-ORG
+Beecham	PLC I-ORG
 La	I-FAC
 visit	B-GPE
-Beacon	I-ORG
+Beacon	News I-ORG
 Options	I-ORG
 Tiger	I-ORG
-Federal	I-ORG
+Federal	Communications I-ORG
 Katherine	I-PER
-Graf	I-PER
-People's	I-ORG
-taken	B-GPE
-Cory	I-PER
-prosecutor	B-PER
-Struggle	I-ORG
-``	B-ORG B-PER B-GPE I-PER
+_	Jim Joseph Iran Lawrence Saddam iCAST Nokia China B-PER Terry B-FAC Georgia B-GPE Michael Slobodan British Herbert Paco Major B-ORG Bonds Joseph's Yugoslavia Japan
+People's	Party I-ORG
+taken	Israel B-GPE
+Cory	Phillips I-PER
+prosecutor	B-PER Alan
+Struggle	Front I-ORG
+commissioner	Sunil B-PER
 Land	I-ORG
-anchorman	B-PER
-brings	B-GPE
-under	B-PER
-Ripudan	I-PER
-committeewoman	B-PER
-American	I-FAC I-ORG
-train	I-FAC
-Roger	I-PER
+anchorman	Peter B-PER
+brings	Britain B-GPE
+under	Herblock B-PER Bush Gore Shea
+Ripudan	Singh I-PER
+committeewoman	Julie B-PER
+Claire	Parkhurst I-PER
+train	I-FAC station
+Roger	B. I-PER
 accept	B-PER
-Brad	I-PER
-known	B-PER
-central	B-LOC
+Brad	Freeman I-PER
+known	Wouters B-PER
+central	Seoul B-LOC
 Westchester	I-FAC
-AT&AMP;T	I-ORG
+AT&AMP;T	Wireless I-ORG
 Charter	I-ORG
 Now	B-PER
-join	B-ORG
-Johnny	I-PER
+join	B-ORG Citigroup
+Johnny	Oates I-PER
 Pope	B-PER
-Talwinder	I-PER
-German	I-ORG
+Brian	Kain Park I-PER
+German	Peoples I-ORG Bishops
+Jimmy	Carter I-PER
 Tiffany	I-ORG
-Wrestling	I-ORG
-Pacific	I-FAC
-believes	B-PER
+Wrestling	I-ORG Federation
+Pacific	I-FAC Bell
+believes	Fox B-PER
 purge	B-GPE
 Muhammad	I-PER
-Jack''	I-PER
-Yoko	I-PER
-9th	I-ORG
-Caravan	I-ORG
+Jack''	Hanlon I-PER
+Yoko	Ono I-PER
+9th	U.S. I-ORG
+Caravan	of I-ORG
 criticizing	B-GPE
-Astronaut	B-PER
-Microsoft	I-ORG
-SG	I-ORG
+Astronaut	Leroy B-PER
+Microsoft	Corp. I-ORG
+SG	I-ORG Cowen
 dissolve	B-ORG
-F.	I-PER
-Harold	I-PER
-control	B-GPE
-buying	B-ORG
-Cate	I-PER
+F.	I-PER Roye
+Harold	R. I-PER
+control	Serbia B-GPE
+buying	B-ORG J.P.
+Cate	I-PER Galliford
 Northern	I-LOC I-ORG
-give	B-PER
-Kathleen	I-PER
-Media	I-ORG
-Gannett	I-ORG
+give	B-PER George Chiao
+Kathleen	I-PER Shanahan
+Media	Metrix I-ORG
+Gannett	Newspapers I-ORG
 Laureen	I-PER
 Ralph	I-PER
-Jerry	I-PER
-agent	B-PER
-Houston	I-ORG
-Liberation	I-ORG
-Mr.	B-PER
-Speaker	B-PER
-Abu	I-PER
-want	B-PER B-GPE
-Dutch	I-ORG
-Policy	I-ORG
-Party	I-ORG
-Lipper	I-ORG
-condemn	B-GPE
-ultranationalist	B-ORG
-Thorbjoern	I-PER
-Federation	I-ORG
-Donna	I-ORG
-Internal	I-ORG
-ST.	I-GPE
-criticizes	B-PER B-GPE
-Josef	I-PER
-Wall	I-ORG
-reinstated	B-PER
+Jerry	Jones I-PER
+agent	Scott B-PER
+Talwinder	Singh I-PER
+Mr.	July B-PER
+way	B-PER
+Speaker	B-PER Salim
+Abu	I-PER Talb
+want	Guzman Mexicans B-PER B-GPE
+Dutch	I-ORG Airlines
+Policy	and I-ORG
+Party	of I-ORG
+Lipper	I-ORG Inc
+condemn	Israel B-GPE
+ultranationalist	Radical B-ORG
+Thorbjoern	Jagland I-PER
+Federation	of I-ORG
+Internal	I-ORG Revenue
+ST.	LOUIS PAUL I-GPE
+Canadian	Mounted I-PER
+Josef	Stalin I-PER
+Wall	Street I-ORG
+reinstated	B-PER Duncan
 Spray	I-ORG
-Gaspard	I-PER
-Hartford	I-ORG
-Jack	I-PER
-Ljeka	I-PER
+Gaspard	Yurkievitch I-PER
+Hartford	Group I-ORG
+Jack	Straw Welch Jones I-PER Kemp
+Ljeka	Juncaj I-PER
 Louis	I-ORG
-Juleanna	I-PER
-Josep	I-PER
-Stock	I-ORG
-opposition	B-ORG
-Lionel	I-PER
-Basset	I-PER
-Television	I-ORG
+suspend	Guzman B-PER
+Juleanna	Glover I-PER
+Josep	Pique I-PER
+Stock	I-ORG Market Exchange
+Lionel	Jospin I-PER
+Basset	I-PER Ali
+Television	News I-ORG
 ABC	I-ORG
-Don	I-PER
-Triple	I-PER
-L.	I-PER
+Don	Phillips I-PER Brown
+Triple	H I-PER
+L.	I-PER Knutson
 Joel	I-PER
-after	B-ORG B-PER
+after	Georgia B-ORG Bill Wahid B-PER Carl Advanced Gore
 Chapman	I-ORG
-British	I-ORG I-GPE
-Foreign	I-ORG
+British	I-ORG Columbia I-GPE Airways
+Foreign	I-ORG Relations
 Will	B-PER
-Bell	I-FAC
-paced	B-ORG
-president	B-PER
+Bell	I-FAC Park
+president	Basil Michael B-PER
 law	I-ORG
-upstate	I-LOC
-Carlos	I-PER
+upstate	I-LOC New
+Carlos	Jimenez I-PER Ramirez
 a	B-GPE
-Vojislav	I-PER
-Ali	I-PER
+Vojislav	I-PER Kostunica
+Ali	Jan al-Megrahi Ouattara I-PER
 counter	B-GPE
-think	B-ORG B-PER
-Middle	I-LOC I-GPE
+think	B-ORG John B-PER
+Middle	I-LOC East I-GPE
 Soup	I-ORG
-Weather	I-ORG
-Indo-Canadian	I-ORG
-allow	B-PER B-GPE
-Elaine	I-PER
-Andrew	I-PER
+Weather	Service I-ORG Channel
+Indo-Canadian	I-ORG Times
+allow	Milosevic Florida B-PER B-GPE
+putting	B-ORG Hewlett-Packard
+Andrew	I-PER Carnegie
 Blue	I-ORG
-Mel	I-PER
-What	B-PER
-welcomed	B-GPE
-,'''	B-PER
-over	B-ORG B-PER B-GPE
-Mike	I-PER
-soon	B-PER
-South	I-GPE I-ORG
-ReplayTV	I-ORG
-ended	B-PER
+Mel	I-PER Carnahan
+What	Gelbard B-PER
+welcomed	Yugoslavia B-GPE
+,'''	B-PER Djindjic
+over	Milosevic Ken Villanova B-GPE B-ORG Washington Louisville Georgia B-PER Time Lockerbie
+``	Alex B-GPE I Caravan B-ORG Tommy'' Al I-PER Milutinovic Bush Yugoslavia B-PER big Strom Jack'' Texas Joe
+soon	B-PER Letterman
+South	Korea I-GPE I-ORG
+ended	B-PER Al
 Ontario	I-ORG
-through	B-GPE
-during	B-PER
-derided	B-GPE
-Texas	B-ORG I-ORG
-bombing	B-VEH
-24	B-ORG
-Marco	I-PER
-Hero	I-ORG
+through	Frankfurt B-GPE
+during	B-PER Shea
+derided	Egypt B-GPE
+Texas	Senate Rangers B-ORG I-ORG at
+before	B-ORG Germany B-PER B-GPE
+24	B-ORG Bulldogs
+Marco	Dominguez I-PER
+Hero	Fund I-ORG
 SAN	I-GPE
-Emergency	I-ORG
+Emergency	Management I-ORG
 Exchange	I-ORG
-,	B-ORG B-PER B-GPE B-LOC
-Carnegie	I-ORG
-winning	B-ORG
-destroyed	B-PER
-Fisheries	I-ORG
+American	I-FAC Electric Museum Spectrum Council I-ORG
+,	Mississippi Barry Marko Minnesota Illinois Phillips Indiana Texas Brown Democratic ExciteAtHome Stein Bonds Nokia Fred Ronald Bashar Jordan Hanlon Yoko Yasser Onvia.com Netherlands James Chirac Michael Solomon Washington McCarthy German Milan Ujjal Ga Gary Ark Turkey Afghanistan N.J West N.D France Jefferson Northwest Herblock New John W.Va Iowa Janet Colo Frank Mulcahy Parkhurst Gallup Chris Keith Cycle Watts Finland B-GPE Nasser Indonesia Florida Lieberman Sweden Ferrari Helle Ohio Bob Microsoft Nixon easyJet Alvin Dosanjh B-ORG Laura Roy Mich. Zaanoun B.J. Brazil Airbus Compaq Larson Kuwait Scotland Surabaya Pinochet Los Joaquin Iran Carlos MSNBC Modano Ivory Calif. North Druckenmiller Congress Zhang O'Connor The California Marge Chile NBC Iraq Georgia Manuel N.C. Denmark Des Yurkievitch Tommy Morocco Rutgers Fla Steven Ky Mark Austin AT&AMP;T Rodriguez Marshall Lebanon Auburn Wash Britain Ojeda Alex B-LOC Milosevic Qatar Italy Richard Sudan Gannett Wis. Joe Bush Abu Gaza R Ala Calif Israel Parliament Malaysia Notre Rabanne Duane Watson Lopez-Alegria Germany B-PER Wis William lawyers Ripudan GlaxoSmithKline Chapman British Alassane Magner CNN Wisconsin Trans Gore South Va Fla. Letterman Mexico Egypt Al Del. Wyo. Yugoslavia CBS Proper Hafez Copenhagen Comoros Karl
+Carnegie	Hero I-ORG
+winning	B-ORG SEC
+destroyed	Sikhdom B-PER
+Fisheries	I-ORG Service
 400	I-LOC
-Judge	B-PER
-World	I-ORG
-weeks	B-PER
-Banda	I-GPE
-Grace	I-PER
-outside	B-GPE
+Judge	Blanche Juan B-PER Murray
+World	Wrestling I-ORG Entertainment
+weeks	Suharto B-PER
+Banda	Aceh I-GPE
+Grace	Pineda I-PER
+outside	St. Tokyo Israel B-GPE Texas
 versus	B-PER
-then	B-PER
-return	B-GPE
+then	Herblock B-PER
+return	Yugoslavia B-GPE
 Cable	I-ORG
-northwestern	B-LOC
-Miami	I-ORG
-Royal	I-ORG I-PER
-Socialist	I-ORG
-Michael	I-PER
+northwestern	Wyoming B-LOC
+Miami	I-ORG Dolphins
+Royal	Dutch I-ORG I-PER Canadian
+Socialist	Party I-ORG People's
+Michael	Cardozo Adams Martin I-PER Lopez-Alegria S. Schumacher Capellas Novacek
 denounced	B-PER
-Duane	I-PER
-Herbert	I-PER
-disparaged	B-PER
-Right	I-ORG
+Duane	Roelands I-PER
+Herbert	I-PER Lawrence
+disparaged	Michael B-PER
+Radcliffe	I-ORG
 Can	B-ORG B-PER
-Gaza	I-LOC
-Social	I-ORG
-Alvin	I-PER
-Greenwood	I-ORG
-Gerhard	I-PER
+Gaza	I-LOC Strip
+Social	Security I-ORG
+Greenwood	I-ORG Village
+Gerhard	Schroeder I-PER
 Caisse	I-ORG
-Supreme	I-ORG
-San	I-GPE I-ORG
-Sam	I-PER
+Supreme	Court I-ORG
+San	Jose Francisco I-GPE Maurizio I-ORG
+Sam	Donaldson I-PER
 trailed	B-PER
 Holbrook	I-ORG
-Salim	I-PER
+Salim	Zaanoun I-PER
 Integral	I-ORG
-Aaron	I-PER
-Copley	I-ORG
+Aaron	Miller I-PER
+Copley	Press I-ORG
 --	B-PER
-Milan	I-PER
-Rubens	I-PER
-Council	I-ORG
-Petit	I-FAC
-Stanley	I-PER
-Tamara	I-PER
-giving	B-ORG
-Ambrosio	I-PER
-Ray	I-PER
-Airbus	I-ORG
-Felix	I-PER
-End	I-ORG
-fired	B-PER
+Milan	Milutinovic I-PER
+Rubens	Barrichello I-PER
+Council	on I-ORG
+Petit	I-FAC Palais
+accompanied	B-PER Gore
+Tamara	Maschino I-PER
+giving	B-ORG Citifinancial Copley
+Ambrosio	Rodriguez I-PER
+Ray	Bourque I-PER
+Airbus	Industrie I-ORG
+Felix	I-PER Frankfurter
+End	I-ORG Ltd
+fired	B-PER Doug
 Accreditation	I-ORG
 /The	B-ORG
-Museum	I-ORG
-crimes	I-ORG
-Mort	I-PER
-challenger	B-PER
-Joseph	I-PER
+Museum	of I-ORG
+crimes	tribunal I-ORG
+Mort	I-PER Kondracke
+challenger	Vojislav Dick B-PER
+Joseph	Conrad I-PER Lieberman
 Washington,	I-GPE
 year	B-PER
-Laurent	I-PER
-naming	B-GPE
-Lacina	I-PER
-out	B-ORG B-PER
-Ken	I-PER
-E.	I-PER
-Babe	I-PER
-Elizabeth	I-PER
-everything	B-ORG
-Viktor	I-PER
-CEO	B-PER
-Chancellor	B-PER
+Laurent	Gbagbo I-PER
+naming	Israel B-GPE
+Lacina	Coulibaly I-PER
+out	Milosevic B-ORG Ferrari B-PER
+Ken	Griffey I-PER
+E.	Mulcahy I-PER
+Babe	Ruth I-PER
+Elizabeth	II I-PER
+everything	B-ORG Broncos
+Viktor	Chernomyrdin I-PER
+CEO	B-PER Jack
+Chancellor	Gerhard B-PER
 Clerk	B-PER
-Samuel	I-PER
-J.	I-PER
+Samuel	I-PER Chase
+J.	Reese I-PER
 trusts	B-GPE
-William	I-PER
+William	Daley Cohen H. I-PER
 replacing	B-PER
-mate	B-PER
-Joe	I-PER
-Jakarta	I-ORG
-Army	I-ORG
-Hole	I-FAC
-replaces	B-PER
-Medical	I-FAC
-Jon	I-PER
-Jeanne	I-PER
-Commerce	I-ORG
-Haifa	I-PER
-polling	I-ORG
-Rosalinda	I-PER
-Ananta	I-PER
-University	I-FAC I-ORG
+mate	Dick B-PER
+Joe	Rusz Andrew I-PER McCarthy
+Jakarta	Post I-ORG
+Army	Material I-ORG
+Hole	I-FAC Airport
+replaces	Bruce B-PER
+Geraldine	Ferraro I-PER
+Jon	Englund I-PER
+Jeanne	I-PER Johnson
+Commerce	Department I-ORG
+Haifa	Ezzi I-PER
+polling	organization I-ORG
+Rosalinda	Arebalo I-PER
+Ananta	I-PER Baharuddin
+University	I-FAC Hospital I-ORG of
+Jean	I-PER Rickard
 Hani	I-PER
-Celestine	I-PER
-faulting	B-PER
-Republican	B-PER I-ORG
-Circuit	I-ORG
-imagine	B-GPE
-backed	B-PER
-North	I-GPE I-ORG
-Security	I-ORG
+faulting	Bush B-PER
+Republican	Conference Mike National Dick Mark Bush B-PER Todd Party George I-ORG
+Circuit	Court I-ORG
+imagine	Seattle B-GPE
+backed	Milosevic B-PER
+North	I-GPE America I-ORG Rhine-Westphalia Carolina
+Security	Administration I-ORG Council
 Ocean	I-ORG
-Investments	I-ORG
-Garth	I-PER
-Angeles	I-FAC I-ORG
+Investments	of I-ORG
+Garth	Lagerway I-PER
+Angeles	I-FAC Dodgers I-ORG Times
 Traverse	I-GPE
-Aceh	I-ORG
+Aceh	I-ORG Movement
 mainland	B-GPE
-People	I-ORG
-Boston	I-LOC I-ORG
-Tareq	I-PER
+People	magazine I-ORG
+Boston	Harbor I-LOC I-ORG
+Tareq	Aziz I-PER
 impose	B-GPE
-put	B-ORG B-PER
-Ronda	I-PER
+put	B-ORG Georgia B-PER
+Ronda	Needham I-PER
 tracked	B-PER
-Defenseman	B-PER
-Joseph's	I-FAC
-aboard	B-VEH
-Human	I-ORG
-Academy	I-ORG
-Higher	I-ORG
-Mandala	I-PER
+Defenseman	Aaron B-PER
+Joseph's	I-FAC Tomb
+aboard	B-VEH Air
+Human	Services I-ORG
+Academy	of I-ORG
+Higher	Education I-ORG
+Mandala	Putra I-PER
 Eric	I-PER
-Canadian	I-PER
-Wadsworth	I-PER
+David	Minge Chapman I-PER Coulthard Proper Fisher
+Wadsworth	Longfellow I-PER
 enraged	B-GPE
 Sanford	I-ORG
-suspend	B-PER
-Island	I-ORG
-Palestinian	I-ORG I-GPE
-I-AA	B-ORG
-Oklahoma	I-ORG
-Fateh	I-PER
+Voter	I-ORG
+Island	I-ORG Sea
+Palestinian	Front I-ORG I-GPE
+I-AA	B-ORG Marshall
+Oklahoma	State I-ORG
+Fateh	Sayed I-PER
 powerful	B-ORG
-owned	B-ORG
-one	B-PER
-Gen.	B-PER
-Manuel	I-PER
-Track	I-ORG
-Electric	I-ORG
+owned	B-ORG Road
+one	B-PER Gore
+Gen.	Robert John B-PER
+Manuel	I-PER Andrade
+Track	magazine I-ORG
 Theater	I-ORG
-owner	B-PER
-Jackson	I-FAC
-Antasari	I-PER
-Boris	I-PER
-given	B-PER
-Howard	I-PER
+owner	Tom B-PER Jerry
+Jackson	I-FAC Hole
+Antasari	Ashar I-PER
+Boris	I-PER Yeltsin
+given	Donnan Hanlon B-PER
+Howard	I-PER Klein
 Transportation	I-ORG
 For	B-PER
-Courier	I-ORG
-Centre	I-FAC
-leading	B-GPE
-J.P.	I-ORG
+Courier	News I-ORG
+Centre	I-FAC College
+leading	Yugoslavia B-GPE
+J.P.	I-ORG Morgan
 Reader's	I-ORG
 Avaya	I-ORG
-Coast	I-ORG
-militant	B-ORG
-Environmental	I-ORG
-attack	B-PER
-station	B-ORG
-SEC	B-ORG
+Coast	I-ORG Research
+militant	B-ORG Korean
+Environmental	Protection I-ORG
+attack	Bush B-PER
+station	B-ORG KMVP
+SEC	B-ORG East
 listed	B-ORG
-Press	I-ORG
-Mounted	I-PER
-sidelining	B-PER
-Italian	I-LOC
-Marge	I-PER
-Firstsource	I-ORG
-enforcement	I-ORG
+time	Israel B-GPE
+Press	Television I-ORG Inc.
+Mounted	Police I-PER
+sidelining	B-PER Kostunica
+Italian	Alps I-LOC
+Alexander	I-PER Alexandrov
+Firstsource	Corp I-ORG
+enforcement	division I-ORG
 Ahmed	I-PER
-murder	B-PER
+murder	Tara B-PER
 Estee	I-ORG
 Justin	I-PER
 Adelphia	I-ORG
-Rev.	B-PER
-Patrick	I-PER
-acquire	B-ORG
-Sunil	I-PER
+Rev.	Thomas B-PER
+Patrick	Roy I-PER
+acquire	B-ORG The
+Sunil	I-PER Gulati
 Patricia	I-PER
-Raul	I-PER
-because	B-ORG B-PER B-GPE
-Victory	I-ORG
-IMUnified,	I-ORG
-Beverly	I-PER
-probably	B-PER
+Raul	Ojeda I-PER
+because	Bush B-ORG B-GPE B-PER
+Victory	2000 I-ORG
+IMUnified,	I-ORG coalition
+Beverly	Busson I-PER
 Kurt	I-PER
-Democratic	I-ORG
-convinced	B-PER
-Zoran	I-PER
-Road	I-ORG
-Village	I-ORG
-So	B-PER
+Democratic	Party National Revolution I-ORG
+convinced	Milosevic B-PER
+Zoran	Djindjic I-PER
+Road	I-ORG &
+So	B-PER Bonds
 Yitzhak	I-PER
-Rod	I-PER
+incoming	House B-ORG
+Rod	I-PER Eddington
 Classical	I-ORG
-Gennady	I-PER
-Winn-Dixie	I-ORG
-require	B-ORG
-conscious	B-GPE
+Gennady	Seleznyov I-PER
+Winn-Dixie	Stores I-ORG
+require	Hollinger B-ORG AOL
+conscious	Seattle B-GPE
 see	B-ORG B-PER
-spokeswoman	B-PER
-Hubert	I-PER
-Banc	I-ORG
-visited	B-PER
-toward	B-ORG
-Defendants	B-PER
-Cecil	I-PER
-Northwest	I-ORG
-and	B-GPE B-ORG B-PER B-FAC I-ORG B-LOC
-Fortuna	I-PER
+spokeswoman	Lela Rebecca B-PER Jeannette
+Juan	Guzman I-PER
+Hubert	Vedrine I-PER
+Banc	of I-ORG
+visited	Clinton B-PER
+toward	B-ORG Parliament
+Defendants	Abdel B-PER
+Cecil	Brinkley I-PER
+Northwest	I-ORG Airlines
+and	Canada Zhonghe Washington Dick Cheney Mark Bush ExciteAtHome Louisiana The Higher Europe Mladjan Mike Korea SmithKline Clarence Algeria Michigan Kansas Josef Andrew Kostunica Microsoft Ronald Berlin Larry Gore NBC Assad B-FAC Colts Tampa B-PER Marcus Indonesia Human B-GPE Jack Tribal Bill Harold Lieberman Syracuse Zimmer Ajaib Syria Bob Palestinians Buffalo Atlanta Naturalization Nielsen Bagri Yemen Company Clinton Zhou Shea Egypt Lamen B-ORG Jeff Serbia Al Koetter McArthur German Britain Tennessee Tunisia Triple Greece Brownsville Lebanon Jerusalem Mercer George B-LOC I-ORG
+Fortuna	Anwar I-PER
 Alun	I-PER
-Fyens	I-ORG
-Court	I-ORG
-Adam	I-PER
-Richard	I-PER
-Chicago	I-FAC I-ORG
+Fyens	I-ORG Stiftstidende
+Court	of I-ORG
+Adam	Eidinger I-PER
+Richard	Campbell Holbrooke I-PER
+Chicago	I-FAC Sun-Times Daily Newspaper White I-ORG
 Automobile	I-ORG
-Gridiron	I-ORG
+Gridiron	Club I-ORG
 Electoral	I-ORG I-PER
-,''	B-ORG B-PER
-Douglas	I-PER
+,''	Donaldson Little Holt Ronda Larson Barry Finney Mark Phillips Bush Jefferson Tom Herblock Arebalo McArthur Margiou Anwar Rogers Schumacher Nokia Park Zoran Krikorian Gore Yeltsin Hanlon Skrainka B-PER Watts Rosalinda Lehane Chirac Roye Chapman Lieberman Solomon DeVito Wolf Dinkic Chiao Thiessen Melvin Clinton Yavlinsky Sullivan Graham Moussa B-ORG Maschino Manning Reuters Darrell Meyer Evensky George Eddington
+Douglas	A. I-PER Hattaway
 Orange	I-GPE
-defending	B-GPE
-have	B-ORG B-PER
-Tinley	I-GPE
-Jody	I-PER
-my	B-PER
-Soccer	I-ORG
-Pan	I-VEH
-sell	B-ORG
-forced	B-PER
+defending	B-GPE France
+have	B-ORG Hewlett-Packard B-PER Gore
+Tinley	Park I-GPE
+Jody	Scheckter I-PER
+my	God B-PER
+Soccer	I-ORG Federation
+Pan	Am I-VEH
+sell	Go B-ORG
+forced	Milosevic B-PER
 Rachel's	I-FAC
-Christian	I-ORG I-PER
+Christian	Worch I-ORG I-PER
 N.	I-PER
-Power	I-ORG
-presents	B-PER
-Jewish	B-LOC
-assails	B-PER
-After	B-ORG B-PER
--	B-ORG B-GPE
+Power	Corp. I-ORG
+presents	Milosevic B-PER
+Marge	I-PER Magner
+assails	Bush B-PER
+that	Milosevic BA Barry Smith Bush Joseph Lennon John Compaq Block Wisconsin Congress Mel AOL B-PER God America B-GPE Indonesia Arthur Road Clinton Letterman Shea Camelot B-ORG Koetter Guzman George Andrade
+-	B-ORG Calif B-GPE
 Myron	I-PER
-investment	I-ORG
+investment	management I-ORG
 Beit	I-GPE
 without	B-PER
-Minister	B-PER
-which	B-PER B-GPE
-punish	B-GPE
-SULPHUR	I-GPE
-Ephraim	I-PER
-With	B-PER
+Minister	Ehud Ivanov Amr Viktor Abdul Tareq Goeran Thorbjoern B-PER Hubert Josep Ephraim Guenther Lionel
+which	Donnan B-GPE B-PER Pinochet Russia
+punish	Iraq B-GPE
+SULPHUR	SPRINGS I-GPE
+Ephraim	Sneh I-PER
+With	Vojislav B-PER
 Hall	I-ORG
-quarterback	B-PER
-Revolutionary	I-ORG
+quarterback	Jim Scott B-PER Cory
+Revolutionary	Party I-ORG
 even	B-GPE
 Unlike	B-PER
-though	B-PER
-winless	B-ORG
-sue	B-ORG
-Governor	B-PER
-Library	I-FAC
-Communications	I-ORG
-Chief	B-PER
+though	Milosevic B-PER
+winless	Navy B-ORG
+sue	B-ORG Northwest
+paid	B-PER
+Library	I-FAC of
+Communications	Commission I-ORG
+Chief	James B-PER
 hired	B-PER
-stormed	B-GPE
+stormed	B-GPE Belgrade
 Ivan	I-PER
-The	B-GPE B-ORG I-GPE B-PER I-ORG B-LOC
-Conrad	I-PER
+The	United Dallas Gridiron Enforcers BOJ New White General Courier Star-Ledger Beacon Taliban Gallup Kains News I-GPE B-PER Commerce B-GPE Jakarta PFLP-GC Times Herald Record Hague Denver Rock EU Security Democratic GOP Daily Mets Supreme Federalists Associated Wall National Washington State Mariners Fyens Scarlet Economic College Indo-Canadian Duma B-ORG B-LOC I-ORG
+Conrad	Parkhurst I-PER
 why	B-ORG B-PER
-Naturalization	I-ORG
-Bernie	I-PER
-D.	I-PER
+Naturalization	I-ORG Service
+Bernie	Shaw I-PER
+D.	Fabiani Hemlepp I-PER Roosevelt
 Attorney	B-PER
 Aidan	I-PER
 Chamber	I-ORG
-Hosni	I-PER
-neighboring	B-GPE
+Hosni	I-PER Mubarak
+neighboring	Matamoros B-GPE Chiapas
 later	B-PER
-with	B-ORG B-PER B-GPE
-Secretary-General	B-PER
-Bruce	I-PER
-Donald	I-PER
+with	Mubarak Fox France Phillips Bush B-PER John Israel Putin Iowa Kostunica GEMA Germany Jack Iraq Gore B-GPE KLM Chirac Benetton Ferrari Time Syria Barbara Microsoft Redmond People B-ORG Copley
+Secretary-General	Kofi B-PER
+Bruce	Snyder I-PER
+Donald	Phillips I-PER
 Chen	I-PER
-businessman	B-PER
+businessman	B-PER Riccardo
 &AMP;	I-ORG
-If	B-ORG B-PER
+If	Barry B-ORG B-PER Tommy
 Fidelity	I-ORG
-Bishop	B-PER
+Bishop	B-PER Karl
 Gabrielle	I-ORG
-saying	B-PER
-Narita	I-FAC
+saying	B-PER Andrade
+Narita	I-FAC Airport
 WB	I-ORG
-contacted	B-PER
-show	B-PER B-GPE
-Union	I-ORG
-Barry	I-PER
-Tara	I-PER
+contacted	B-PER Forrester
+show	Rodriguez B-PER B-GPE
+Union	of I-ORG
+Barry	I-PER Bonds
+Tara	Singh I-PER
 supported	B-PER
-LONGBOAT	I-GPE
-Mississippi	I-LOC
-ending	B-GPE
-moderator	B-PER
-bring	B-PER
-juror	B-PER
+LONGBOAT	I-GPE KEY
+Mississippi	Sound I-LOC
+ending	Serbia B-GPE
+moderator	B-PER Bernie
+bring	Milosevic B-PER
+United	States I-GPE I-ORG Nations
+juror	B-PER Tina
 Stephen	I-PER
-Napster	I-ORG
-Macomb	I-FAC
-find	B-PER
-Congressional	I-ORG
-staff	B-PER
+Napster	I-ORG Inc
+Macomb	I-FAC Hospital
+find	B-PER Bonds
+Congressional	I-ORG Committee
+staff	Kathleen B-PER
 Kathy	I-PER
-As	B-PER B-GPE
-giant	B-ORG
-Gene	I-PER
-northern	B-LOC
-Saddam	I-FAC I-PER
-(	B-ORG B-PER
-A.G.	I-ORG
+As	Indonesia B-PER B-GPE
+giant	B-ORG Hewlett-Packard
+Gene	Smith I-PER
+northern	Alabama B-LOC
+Saddam	I-FAC I-PER International
+(	Jeff B-ORG Fox Bush AP Ventura B-PER Villard
+A.G.	Edwards I-ORG
 Kansas	I-ORG
-state	B-ORG
-Free	I-ORG
-Fred	I-PER
+state	Senate B-ORG
+Free	Aceh I-ORG
+Fred	Barnes I-PER Meyer
 Jean-Bertrand	I-PER
-Sons	I-ORG
-York	I-ORG
+Sons	I-ORG Inc
+York	Giants Mets Stock I-ORG Times
 Chi	I-GPE
-Dirk	I-PER
-communist	B-GPE
-Grigory	I-PER
+Dirk	Koetter I-PER
+communist	East B-GPE
+Grigory	Yavlinsky I-PER
 Giuliano	I-PER
-Dove	I-GPE
+Dove	Valley I-GPE
 personality	B-PER
-Applied	I-ORG
-Merrill	I-ORG
-his	B-ORG
-dominant	B-ORG
-get	B-PER B-GPE
-beat	B-ORG
+Applied	Micro I-ORG
+his	B-ORG Federalist
+dominant	B-ORG Taliban
+criticizes	Bush Indonesia B-PER B-GPE
+beat	Wall B-ORG Georgia
 Aiden	I-PER
 de	I-ORG
 watch	B-PER
 Jaromir	I-PER
 GROSSE	I-GPE
-Arik	I-PER
-While	B-ORG B-PER
-Mullah	I-PER
-Newport	I-GPE
-Jorma	I-PER
+While	B-ORG B-PER Bush Compaq
+Houston	I-ORG
+Newport	Beach I-GPE
+Jorma	I-PER Ollila
 On	B-ORG
-new	B-FAC
-Popular	I-ORG
-Organization	I-ORG
-coaches	B-PER
+new	B-FAC Capitol Pacific
+Popular	I-ORG Struggle
+Organization	of I-ORG
+coaches	B-PER Gary
 Rodney	I-PER
-;	B-PER B-GPE
+;	B-PER B-GPE Brad
 Amir	I-PER
-Because	B-PER
+Right	I-ORG Forces
 Fife	I-GPE
 showed	B-PER
-concerned	B-ORG
-Riccardo	I-PER
-W.	I-PER
+concerned	B-ORG Associates
+Riccardo	Gelael I-PER
+be	Montenegrin B-GPE
+W.	Bush Hughes I-PER
 married	B-PER
-Washington	I-FAC I-ORG I-GPE
-remove	B-PER
+Washington	I-FAC University Capitals I-ORG State Post I-GPE
+Institute	I-ORG
+remove	Guzman B-PER
 Kong	I-ORG
 Toni	I-PER
 Mackenzie	I-ORG
-Ujjal	I-PER
-predicted	B-PER
-Craig	I-PER
-including	B-ORG B-PER B-GPE
-Fort	I-ORG
-where	B-ORG B-PER
+Ujjal	I-PER Dosanjh
+predicted	B-PER Faustino
+Craig	Powell I-PER
+including	B-GPE B-ORG France Jordan B-PER The
+Fort	I-ORG Worth
+where	B-ORG Michele Kostunica B-PER
 Networks	I-ORG
 Brent	I-PER
-Komsomolskaya	I-ORG
-Mayor	B-PER
-:	B-PER B-GPE
+Komsomolskaya	Pravda I-ORG
+Mayor	B-PER Carlos Warren
+Because	Bush B-PER
 FIFE	I-GPE
 HONG	I-GPE
-District	I-GPE I-ORG
-National	I-ORG
-subsidizing	B-ORG
-Fox	I-ORG
-Inaugural	I-ORG
-around	B-GPE B-LOC
+District	of I-GPE I-ORG
+National	League Center Weather Committee Rifle Action Democratic Marine I-ORG
+subsidizing	Go B-ORG
+Fox	News I-ORG
+Inaugural	I-ORG Ceremonies
+around	Earth B-GPE B-LOC
 Zoo	I-ORG
-defenseman	B-PER
-accused	B-ORG B-PER
-van	I-PER
-Debbie	I-PER
-Justices	B-PER
+defenseman	B-PER Ray
+accused	Fisher B-ORG B-PER BA
+van	I-PER Noten
+Debbie	Watson I-PER
+Justices	B-PER Sandra
 Grand	I-ORG
-Natural	I-ORG
-John	I-FAC I-PER
+Natural	I-ORG History
+John	I-FAC Adams Howard Avery Marshall I-PER Macomb Parkhurst Lennon Sullivan Paul Wooding Coburn
 Gartner	I-ORG
-Po	I-LOC
+Po	I-LOC River
 incorporating	B-GPE
 Walt	I-ORG
-Indonesian	B-GPE
-said	B-ORG B-PER B-GPE
+Indonesian	West B-GPE
+said	Howard Abdul Robert Douglas Fox Grigory Mark Brian Bush Diaz Debbie Garth Roelands Braca Novacek Jonathan Weisschuh Joni Steve Dooley Parliament Zhang Frank Andrew Alan Holtz Ali Gore Kim Dewi Haitham Grace Jon B-PER Jones Roberta B-GPE Bob James Michael Fernando Tommy Aloul Kain Solomon Jeff Pinochet Harriet Nidal Houston Thomas Phillips B-ORG Maurice Rod Jennifer Guzman Feduccia Joe Herblock Eddington Northwest
 -occupied	B-LOC
-Murray	I-PER
-Joanne	I-PER
-federal	B-FAC B-ORG
-Greenbrier	I-FAC
-46-year-old	B-PER
+Murray	I-PER Schwartz
+Joanne	Lyczkowski-Shultz I-PER
+federal	B-FAC parliament B-ORG
+Greenbrier	I-FAC Hotel
+46-year-old	B-PER Abu
 Park	I-FAC I-ORG
 Oregon	I-ORG
-label	B-PER
-Mikhail	I-PER
-Razzak	I-PER
-Berlin	I-FAC
+label	B-PER Gore
+Mikhail	I-PER Glinka
+Razzak	Akhund I-PER
+Berlin	Wall I-FAC
 won	B-GPE
-Gallup	I-ORG
-House	I-ORG
-between	B-ORG B-PER B-GPE
-affecting	B-GPE
-Cuming	I-GPE
-before	B-ORG B-PER B-GPE
-linebacker	B-PER
-across	B-FAC B-LOC B-GPE
-Advanced	I-ORG
-Cycle	I-ORG
-Broncos	I-ORG
-gives	B-GPE
+Gallup	I-ORG polling
+House	of Republican I-ORG
+between	Milosevic B-GPE Mubarak Mexico Paris B-ORG Holt Bush Congress B-PER Gore
+affecting	Japan B-GPE
+probably	B-PER
+developer	B-PER Al
+linebacker	Craig B-PER
+across	B-GPE Jakarta Arkansas B-FAC upstate B-LOC
+Advanced	Micro I-ORG
+Cycle	World I-ORG
+Broncos	Bar I-ORG
+gives	Indonesia Germany B-GPE
 ends	B-PER
-Irish	I-LOC
-Sen.	B-PER
-Sea	I-ORG
-Johnson	I-ORG I-PER
-targeted	B-ORG
-Florida	B-ORG I-ORG
-Tribal	I-ORG
-Gary	I-PER
+Irish	I-LOC Sea
+Sen.	Joseph B-PER Ellen
+Sea	I-ORG Lab
+Johnson	Phillips I-ORG I-PER &
+targeted	B-ORG Hewlett-Packard
+Florida	B-ORG I-ORG State Marlins
+Tribal	Voice I-ORG
+Gary	Darnell I-PER Pinkel
 Jessica	I-PER
-Democrat	B-PER
+Democrat	Dianne Al Joseph Elaine B-PER Gerrie
+Christopher	Wouters I-PER
 Securities	I-ORG
-Hollinger	I-ORG
+Hollinger	International I-ORG
 Janus	I-ORG
 Trimark	I-ORG
-extent	B-ORG
-African	I-ORG
-Nasser	I-PER
-group	B-ORG
-Maurice	I-PER
+opposition	B-ORG Democratic
+African	Unity I-ORG
+Nasser	Al-Kidwa I-PER
+group	OutRage B-ORG Gartner Stonewall Hamas
+Maurice	Motamed I-PER
 P.	I-PER
-Detective	B-PER
-blame	B-PER
-Peter	I-PER
+Detective	Christopher B-PER
+blame	Madrazo B-PER Abu
+Peter	Jennings I-PER Tatchell
 acquiring	B-ORG
 reverse	B-PER
+Amr	Mussa I-PER
 taking	B-ORG
 Irma	I-PER
-Kurtis	I-PER
-against	B-ORG B-PER B-GPE
-declare	B-PER
-Steve	I-PER
-prefer	B-PER
+Kurtis	R. I-PER
+space	I-FAC station
+against	Slobodan Georgia B-GPE Hewlett-Packard West B-ORG Nashville Israel Copley Virginia Guzman Bush Exxon Pinochet Air-India Napster B-PER
+declare	Gelbard B-PER
+Steve	Phillips Austin I-PER Bronars Horn
+prefer	B-PER Alexandrov
 Spy	I-ORG
 became	B-ORG
-Todd	I-PER
+Todd	Staples I-PER
 Green	I-GPE I-ORG
-BANDA	I-GPE
+BANDA	ACEH I-GPE
 Edward	I-PER
-asked	B-PER B-GPE
-Monty	I-PER
+asked	Dooley Putin B-GPE Guzman B-PER Syria
+Monty	Graham I-PER
 MSN	I-ORG
-among	B-PER
-Bay	I-FAC I-ORG
-rounders	B-PER
-Compaq	I-ORG
-Center	I-ORG
+among	Wahid B-PER Pinochet
+Healthcare	I-ORG
+Bay	I-FAC Park I-ORG
+rounders	Mike B-PER
+extent	B-ORG
 Affairs	I-FAC
 Roni	I-PER
 Artificial	I-ORG
-Monetary	I-ORG
+Monetary	Fund I-ORG
 G.W.	I-PER
 Stephan	I-PER
-Drew	I-PER
-church	I-ORG
-Pat	I-PER
-Willie	I-PER
+Drew	I-PER Nixon
+church	of I-ORG
+Pat	D. I-PER
+Willie	I-PER Mays
 Hussein	I-PER
 Disney	I-ORG
-Griffey	I-PER
-teammate	B-PER
-C.	I-ORG I-PER
-asks	B-PER
-west	I-LOC
-Immigration	I-ORG
-But	B-ORG B-PER
-Camelot	I-ORG
-European	I-GPE I-ORG
-Protection	I-ORG
-dictator	B-PER
-change	B-PER
-Carl	I-PER
-Sandra	I-PER
-poet	B-PER
--controlled	B-GPE
+Griffey	I-PER Jr
+teammate	Rubens B-PER David
+Electric	I-ORG Power
+asks	B-PER Annan
+west	I-LOC Jerusalem
+Immigration	and Studies I-ORG
+But	Milosevic Franchione Staples Hewlett-Packard B-ORG General Phillips Feduccia Gore Herblock Stanley Microsoft B-PER
+Camelot	Music I-ORG
+European	Union Commission I-GPE I-ORG
+Protection	Agency I-ORG
+dictator	Suharto B-PER
+change	Bush B-PER
+Carl	Torbush I-PER
+Sandra	Day I-PER Bullock
+poet	B-PER Henry
+Reggie	Jackson I-PER
 Astrid	I-PER
-estimated	B-GPE
+estimated	China B-GPE
 killed	B-PER
 board	I-ORG
-Material	I-ORG
-Exxon	I-ORG
-Manhattan	I-ORG
-champion	B-PER
-Abdul	I-PER
+Material	Command I-ORG
+Exxon	Mobile Mobil I-ORG
+Manhattan	Corp I-ORG
+Center	I-ORG for
+Abdul	Razzak Fateh I-PER
 both	B-PER
-fire	B-PER
-Faustino	I-PER
+fire	Donnan B-PER
 Helen	I-PER
-Gov.	B-PER
-Carolina	I-ORG
+Gov.	Jesse Bill Roberto B-PER George
+Carolina	State I-ORG
 Airlines	I-FAC
 TiVo	I-ORG
-fund	B-ORG
-UNITED	I-FAC
+fund	B-ORG industry
+UNITED	I-FAC NATIONS
 recalled	B-PER
-Saudi	I-GPE
-Jimmy	I-PER
-Action	I-ORG
-incoming	B-ORG
-Harriet	I-PER
-Trans	I-ORG
-Guenther	I-PER
+Saudi	Arabia I-GPE
+Alvin	Harper I-PER
+Action	Party I-ORG
+Merrill	I-ORG Lynch
+Harriet	M. I-PER
+Trans	World I-ORG
+Guenther	Beckstein I-PER
 former	B-PER
 C.I.	I-ORG
-Secretary	B-PER
-And	B-PER B-GPE
-Dries	I-PER
+Secretary	William B-PER Jack
+And	Fisher Serbia B-PER B-GPE Gore
+Dries	van I-PER
 Statuary	I-FAC
-Force	I-VEH
+Force	II I-VEH
 Concert	I-ORG
-Kenneth	I-PER
-indicted	B-PER
-International	I-FAC I-ORG
+Kenneth	Apfel I-PER
+indicted	B-PER Pinochet
+International	I-FAC Federation Monetary Airport Paper I-ORG
 Hermes	I-ORG
+Ellen	Anderson I-PER
 Reagan	B-ORG
-governor	B-PER
-General	I-ORG I-PER
+governor	Wolfgang B-PER
+General	Assembly Motors I-ORG I-PER Electric
 admire	B-PER
-near	B-FAC B-GPE
-Persian	I-LOC
-College	I-ORG
-Alfonso	I-PER
+near	Waco B-GPE Sarasota Newton O'Hare Korhogo B-FAC
+Persian	I-LOC Gulf
+College	I-ORG Board
+Alfonso	Insunza I-PER
 Intelligence	I-ORG
 Campbell	I-ORG
-Najid	I-PER
+Najid	Kabee I-PER
 Continental	I-FAC
-gave	B-PER
-Mercer	I-PER
-anchor	B-PER
-Alexander	I-PER
-Queen	B-PER
-Joint	I-ORG
+gave	B-PER Andrade Nixon
+Mercer	Reynolds Bullard I-PER
+anchor	Dan B-PER
+Arik	I-PER
+Queen	Rania B-PER Elizabeth
+Joint	I-ORG Congressional
 Moet	I-ORG
 Kathleene	I-PER
-is	B-ORG B-PER B-GPE
-Edwards	I-ORG
+is	B-ORG Laurent B-PER B-GPE Northwest
+Celestine	I-PER V
 site	B-ORG
-LOS	I-GPE
+LOS	ANGELES I-GPE
 Bush	B-ORG
-Constable	B-PER
+Constable	B-PER Cate
 Chess	I-ORG
 Capital	I-ORG
-Bluegill	I-FAC
-Larry	I-PER
-Nidal	I-PER
+Bluegill	I-FAC Bay
+Larry	King Little I-PER Martin
+Nidal	Abdel I-PER
 Beach	I-GPE
-SmithKline	I-ORG
 AIC	I-ORG
-if	B-ORG B-PER
+if	B-ORG Joseph B-PER Schumacher Donnan Reggie
 Amvescap	I-ORG
-confirmed	B-PER
+confirmed	B-PER Koetter
 Depot	I-ORG
-Morningstar	I-ORG
-since	B-ORG B-PER B-GPE
-CBS	I-ORG
-Lela	I-PER
-Notre	I-ORG
-CAPE	I-GPE
-Rice	I-ORG
-member	B-GPE
-speaker	B-PER
-Bloomberg	I-ORG
-James	I-PER
-shuttle	B-VEH
-President	B-PER
-Innsbrook	I-FAC
-Emerson	I-ORG
-Marcus	I-ORG I-PER
-Danny	I-PER
-Labor	I-ORG
-Salvador	I-PER
-Then	B-PER
-Leroy	I-PER
-Lorena	I-PER
-Geraldine	I-PER
-Doug	I-PER
-17-year-old	B-PER
-Karan	I-ORG
-Charles	I-PER
-director	B-PER
-Dramane	I-PER
-J.C.	I-PER
-neighbor	B-GPE
-Reynolds,	I-ORG
-Dick	I-PER
-Flight	I-VEH
-WHITE	I-GPE
-nation	B-GPE
 Board	I-ORG
+since	MLS B-ORG B-PER B-GPE Wright
+get	Rodriguez Moscow B-PER B-GPE
+CBS	I-ORG
+Lela	Margiou I-PER
+Notre	I-ORG Dame
+CAPE	CANAVERAL I-GPE
+Rice	University I-ORG
+member	B-GPE European
+speaker	Michael B-PER Gennady
+Bloomberg	I-ORG
+James	Vohs H. C. I-PER A.
+shuttle	B-VEH Discovery
+President	Wahid Bush Bashar John Boris Vicente Vladimir Abdurrahman Dan B-PER Gore Salvador Harri Slobodan Franklin Clinton Jacques Vojislav Gaston Carter Hosni Al Milan George
+Emerson	I-ORG
+Georgia	Tech I-ORG
+Marcus	Nash I-ORG I-PER
+Danny	White I-PER
+Salvador	Allende I-PER
+Then	B-PER
+Leroy	I-PER Chiao
+Lorena	Villavicencio I-PER
+Medical	I-FAC
+Doug	Graber Melvin I-PER
+17-year-old	B-PER T.J.
+Karan	I-ORG
+director	John Vince Margaret B-PER Terry Gene Robert
+Dramane	Ouattara I-PER
+J.C.	Watts I-PER
+neighbor	B-GPE Mexico
+Reynolds,	DeWitt I-ORG
+Dick	Zimmer Cheney I-PER Butkus
+Flight	182 103 I-VEH 301
+WHITE	SULPHUR I-GPE
+nation	EU B-GPE
 Kristen	I-PER
 Minh	I-GPE
-Herald	I-ORG
-Slobodan	I-PER
-in	B-ORG B-FAC B-PER B-GPE B-LOC
-center	B-PER
-Latin	I-GPE
-Senate	B-ORG
-Border	I-ORG
-Julie	I-PER
-Airways	I-ORG
+Herald	News I-ORG
+Slobodan	Milosevic I-PER
+in	Mississippi Conyers Minnesota Daniel Texas Shaw Bellevue Baghdad Jonesboro Brussels St. Tampa Alaska Winston-Salem Newport Missouri Yemen San Washington London Go Warren Little Duncan Dortmund Amritsar Amman New East Latin Iowa Aurora Narita Waukegan Berlin Massachusetts America Europe McLean B-GPE Indonesia Florida Columbus Sweden Vietnam Iran Russia Aceh Boston B-ORG Fenis Tuscaloosa Marbury Maine Compaq Oklahoma Delaware Alabama Dale Ivory North Congress Chicago Cedar Belgium B-FAC Iraq Dove Bamyan Denmark Odense Tommy Stockholm Switzerland Elgin Banda Colorado Britain B-LOC Neuss Tinley Philadelphia Bush Vancouver Danville Israel Parliament Geneva Germany B-PER Joliet Eisenhower Jakarta Wilmington Hawaii Bangor The Copenhagen Tijuana Houston Limestone Belgrade Mexico Egypt Serbia Tennessee Yugoslavia Portland
+center	Mike B-PER
+Latin	America I-GPE
+Senate	B-ORG Foreign
+Border	Patrol I-ORG
+Julie	Finley I-PER Duncan
+Airways	PLC I-ORG
 agency	B-ORG
 Sonja	I-PER
 southeastern	I-LOC
-Brian	I-PER
-Economic	I-ORG
+Jewish	west B-LOC
+Economic	Planning I-ORG
 Walter	I-PER
-In	I-ORG B-GPE
+In	B-GPE Egypt Michigan Minnesota Arkansas I-ORG
 Welch	I-PER
-the	B-GPE B-ORG B-PER B-FAC I-ORG B-LOC
-Dennis	I-PER
-Mobil	I-ORG
-Karl	I-PER
+the	Mississippi Broncos Union Labor Rangers BOJ United Department White Texas European Big Republicans PRI Free Joint Adriatic Taliban World Atlanta Xtreme League Miami Valle Socialist Constitutional nation Vatican Organization Maniax Italian Supreme Republican Cincinnati Pirates New Petit Washington Nasdaq London I-ORG Arena Jackson Gulf Army West Fox Commission Library International Dauphin Giants Arizona Greenbrier San Berlin Balkans Patriots EPA University Fort Ukraine Boy B-GPE U.S. NFL Florida Daily EU Security Palestine Yankees Mets Chinese National Tuscaloosa Duma Border Phonographic Dallas Royal Los Internal church Caribbean Midwest Ivory District Environmental FCC SEC Bulldogs Post Rocky Kains Humanitarian American News Majlis Democratic B-FAC Golden Irish German House Pacific Persian College 9th Rally FBI B-ORG B-LOC Innsbrook Chicago Federal Liberation Gaza Sierra Mahane PPSF Mounties Nazis XFL NHL Islamic Hartford B-PER Golan Northeast AP Earth GOP Federation Senate Socialists Middle Avalanche Democrats international
+Dennis	Franchione I-PER
+Mobil	Corp I-ORG
+Karl	Lehmann I-PER Rove
 left	B-PER
-Pete	I-PER
+Pete	Rose I-PER
 restore	B-PER
-United	I-GPE I-ORG
-Wellcome	I-ORG
-guided	B-ORG
-executive	B-PER
+After	B-ORG Rutgers B-PER
+Wellcome	PLC I-ORG
+Rally	of I-ORG
+guided	B-ORG Boise
+executive	Bob B-PER
 Woodland	I-FAC I-GPE
-actress	B-PER
-59-year-old	B-PER
+actress	Madeha B-PER Sandra
+59-year-old	Cheney B-PER
 seen	B-PER
-Newspaper	I-ORG
-__START__	B-ORG B-FAC B-PER B-GPE B-LOC
-Chairman	B-PER
-behind	B-PER
-Das	I-ORG
-R.	I-PER
-T.J.	I-PER
-Saedi	I-PER
+Newspaper	Guild I-ORG
+__START__	Canada Mission BA Mubarak Forrester WAUSAU Schumacher LONGBOAT Kessler Phillips Intellicast Diaz DENVER Glaxo NABLUS COPENHAGEN PISCATAWAY Dosanjh Bonds AOL American LITTLETON Drew Fred Paris Baghdad Madrazo Fisher Hanlon Gore Wouters Augusto Rogers CHICAGO CONYERS James Chirac Michael Dries Solomon Social BROWNSVILLE Bagri Cisco Schwartz CAIRO Michele ABIDJAN Szczaranski Wall Nasdaq Mahmoud Go Capellas Vohs JERUSALEM Ambrosio George Chase Larson Perry BELGRADE Antasari JAKARTA MOSCOW Snyder Fox Madden Mark Milutinovic Onvia Yabloko Joseph Rick Carnahan Herblock New SEPANG John Norway Fucheng Maschino Anwar Avery Mel AMD Alan Kostunica Mulcahy Parkhurst Joe Terry AMSTERDAM Cycle Rush Hutomo B-GPE Freeman PARIS ARLINGTON Indonesia WASHINGTON Ivory Lieberman David KABUL Hollinger Haifa Chiao CAPE Security Paul NYSE Minge Madison UNITED Clinton Tamara Shea September National Koetter Steve Roy Ballmer NASA Juleanna VILLAHERMOSA Watts Ferrari BANDA Graham Katie SANTIAGO Nokia JACKSON Compaq Robert Clay Ouattara Pinochet Hakkinen Syria TEHRAN NEW The Dale Dooley Iran August 0 Duncan Immigration BAGHDAD Microsoft Camelot GEMA ROME Roye NBC Assad B-FAC WARREN Clement Babe COSTA Exxon Staples Marc Hayer Tommy Kain Ventura DeVito Saudi IMUnified, Malik PALESTINE Jean France FRANKFURT Floricel Ono BEIJING Lyczkowski-Shultz Iraq B-ORG PHOENIX LOS Rodriguez Moussa Juncaj General Guzman Egypt Britain Mohammed SEOUL Peter AUSTIN Jeanne B-LOC Northwest Milosevic Applied Pat Taney Onvia.com BOSTON Motamed Cheney Angela Al Brian Bush October LONDON Abu International Donnan Larry NASDAQ McArthur Israel Putin Christian Geneva HELSINKI ST. TOKYO ATHENS Beverly Gelbard Holtz Gaspard Germany B-PER Ljeka Lehane Rutgers Guei Enron Jones ABC Dinkic Associates Marshall Djindjic Geraldine Chapman British TUSCALOOSA J.C. Wisconsin WHITE South Houston Owens Letterman Straw Danneels GE Bullock Levitt Cecil Donald Weather DORTMUND Hafez Melvin NICE
+Chairman	B-PER Alan
+behind	B-PER Patty
+Das	Motorrad I-ORG
+R.	King Holtz Wolf Evensky I-PER
+T.J.	Solomon I-PER
+Compaq	Computer I-ORG
 letting	B-ORG
-Vicente	I-PER
-shaken	B-PER
-urged	B-PER B-GPE
+Vicente	Fox I-PER
 purchased	B-ORG
-Islamic	I-ORG
+Islamic	Republic I-ORG
 Emory	I-ORG
 had	B-PER
-discuss	B-PER
-Margaret	I-PER
-lets	B-ORG
-highlighting	B-PER
-Christopher	I-PER
+discuss	Bush B-PER
+Margaret	Mixon I-PER
+lets	B-ORG Firstsource
+highlighting	Bush B-PER
+-controlled	West B-GPE
 Aquarium	I-ORG
 Although	B-ORG B-PER
-presidents	B-PER
-Front	I-ORG
-News	I-ORG
+presidents	Truman B-PER
+Front	I-ORG for
+News	Sun Agency I-ORG Channel
 struck	B-GPE
-Marine	I-ORG
-St.	I-FAC I-GPE I-LOC
+Marine	Fisheries I-ORG
+St.	I-FAC Peter's I-LOC Louis John I-GPE
 Newt	I-PER
-Yasser	I-PER
+Yasser	Arafat I-PER
 Ian	I-PER
 Sprint	I-ORG
-Roberta	I-PER
-Kim	I-PER
-Jacques	I-PER
+Roberta	Burroughs I-PER
+Kim	Yon-hwan I-PER
+Jacques	Chirac I-PER
 Mona	I-PER
-Kofi	I-PER
-stung	B-PER
-Worth	I-ORG
-Francisco	I-ORG
-Air	I-VEH
-Spokeswoman	B-PER
-Micro	I-ORG
+Kofi	Annan I-PER
+stung	Slobodan B-PER
+Worth	I-ORG Star-Telegram
+Francisco	Giants 49ers I-ORG Demons
+Air	Force I-VEH
+Spokeswoman	Sue B-PER
+Micro	Circuits I-ORG Devices
 press	B-PER
-Cincinnati	I-ORG
+Cincinnati	Reds I-ORG
 depicts	B-PER
-U.N.	B-ORG
-Daily	I-ORG
-Nahman	I-PER
-forcing	B-PER
-Cisco	I-ORG
-like	B-ORG B-FAC B-GPE B-PER
-Los	I-FAC I-ORG
-indicting	B-PER
-UBS	I-ORG
-White	I-FAC I-ORG I-PER
+U.N.	B-ORG Sanctions
+Daily	News Southtown I-ORG Oklahoman
+Nahman	Shai I-PER
+forcing	B-PER Yeltsin
+Cisco	I-ORG Systems
+like	Milosevic EMC B-GPE B-ORG Charles Kurtis Microsoft B-PER Chile B-FAC Seattle Fidelity
+Stanley	I-PER Eikenberry
+Los	Angeles I-FAC I-ORG
+indicting	B-PER Pinochet
+UBS	I-ORG Warburg
+White	House I-FAC I-ORG I-PER Sox
 Neiman	I-ORG
-Mladjan	I-PER
-Scarlet	I-ORG
-benefit	B-PER
-continue	B-GPE
-London	I-ORG
-either	B-ORG B-PER
-Steven	I-PER
-Voter	I-ORG
-Cardinal	B-PER
-Morning	I-ORG
-B.	I-PER
+Mladjan	I-PER Dinkic
+Scarlet	Knights I-ORG
+benefit	B-PER Andrade
+continue	America B-GPE
+London	I-ORG Stock
+either	B-ORG B-PER Gore
+Steven	Ballmer H. I-PER
+Labor	Department I-ORG
+Cardinal	Godfried Danneels B-PER
+Morning	News I-ORG
+B.	I-PER Taney
 inexperienced	B-PER
-),	B-PER
+),	Pete Ted Willie B-PER
 Gibson's	I-ORG
-attorney	B-PER
-55-year-old	B-PER
-old	B-PER
-Gulf	I-LOC I-ORG
-savages	B-PER
+Little	I-GPE Rock
+55-year-old	Donnan B-PER
+old	B-PER Nixon
+Gulf	I-LOC of I-ORG Coast
+savages	Bush B-PER
 Sun	I-ORG
 Since	B-ORG
-back	B-PER
-Banker	B-ORG I-ORG
-Mark	I-PER
-Commission	I-ORG
+back	Vaughn John B-PER
+Banker	B-ORG American J.P. I-ORG
+Mark	D. Kennedy Madden I-PER David Krikorian Murray McGwire
+Commission	on I-ORG
 Kahn	I-PER
-Conservation	I-ORG
+Conservation	I-ORG Voters
 Andy	I-PER
-debating	B-PER
-Tina	I-PER
-Dr.	B-PER
+debating	Bush B-PER
+Tina	Hart I-PER
+Dr.	Joanne B-PER Monty
 Study	I-ORG
-New	I-LOC I-GPE I-ORG
-Jonathan	I-PER
+New	I-LOC I-GPE I-ORG Jersey York
+Jonathan	Sacks I-PER
 Mary	I-PER
 Egon	I-PER
-congratulate	B-PER
-Rally	I-ORG
-Institute	I-ORG
+congratulate	B-PER Kostunica
+Mike	Modano Schmidt Croel I-PER Rogers
+SmithKline	Beecham I-ORG
 Lee	I-PER
-for	B-ORG I-ORG B-GPE B-PER
+for	Sarah Oklahoma Jeb Bush Roelands Public Texas Israel ExciteAtHome A.G. Immigration Bangkok B-PER America Gore B-GPE Indonesia Florida British MLS Victory Merrill Lieberman Cisco Belgrade Mexico Rodriguez B-ORG Copley Roy Yugoslavia the I-ORG
 -general	B-PER
 Pittsburgh	I-ORG
-Frank	I-PER
-Tides	I-ORG
-candidate	B-PER
+Frank	Thomas Newport I-PER
+Tides	End I-ORG
+candidate	Raul Bush Joseph Dick B-PER
 Seventh	I-LOC
-conservative	B-GPE
-Tim	I-PER
-Fund	I-ORG
+conservative	Saudi B-GPE
+Tim	I-PER Russert
+Fund	Commission I-ORG Democracy
 Dave	I-PER
-Planning	I-ORG
+Planning	Agency I-ORG
 Massachusetts	I-ORG
-denied	B-PER
-Chris	I-PER
+denied	B-PER Chapman
+Chris	Lehane I-PER
 Aviation	I-ORG
-Vaughn	I-PER
-commentator	B-PER
-leader	B-PER
+Vaughn	I-PER Dunbar
+commentator	Bill B-PER
+leader	Vojislav Zarko Slobodan B-PER Mullah Zoran Yasser
 Cross	I-ORG
-be	B-GPE
+Boy	I-ORG Scouts
 School	I-ORG
 run	B-ORG
-Angela	I-PER
-O'Hare	I-FAC
-Circuits	I-ORG
-Baker	I-PER
-Bill	I-PER
+Angela	I-PER Mason
+O'Hare	I-FAC International
+Circuits	Corp I-ORG
+Baker	III I-PER
+Bill	Kristol Clinton DeWitt I-PER McArthur Taylor Owens
 expansion	B-ORG
-David	I-PER
+Times	I-FAC I-ORG
 how	B-PER
-Radcliffe	I-ORG
+Harri	Holkeri I-PER
 Lt.	B-PER
 Place	I-ORG
-paid	B-PER
+Gush	I-GPE
 Rock	I-ORG
 Alfie	I-PER
-chairman	B-PER
+chairman	B-PER Ananta
 pitchers	B-PER
-Paco	I-PER
-Gerrie	I-PER
-by	B-ORG B-PER B-GPE
-_	B-ORG B-FAC B-GPE B-PER
-Clarence	I-PER
+Paco	Rabanne I-PER
+Gerrie	Schipske I-PER
+by	Media Fox Bush Northwest Boras Cheney Israel Congress Andrew Kostunica Fund GEMA B-PER Terry NBC Bloom Adams B-GPE Patrick Social Alabama Trans Microsoft AT&AMP;T Yahoo! Jimmy RR B-ORG Al Guzman Gelbard Mercer Julie
+shaken	Milosevic B-PER
+Clarence	Thomas I-PER
 Kendall	I-PER
-on	B-GPE B-ORG B-PER B-FAC I-ORG B-LOC
-about	B-PER B-GPE
-Revolution	I-ORG
-Gaston	I-PER
+on	Milosevic Inaugural Pinochet Bush FNC Vicente Kostunica B-PER B-FAC Iraq Presidential ABC B-GPE Indonesia Tommy CNN Wall B-ORG Serbia I-ORG Yugoslavia Education Koetter B-LOC
+about	B-GPE Bush Yugoslavia B-PER Carnahan Germany Texas
+Revolution	Party I-ORG
+Gaston	Caperton I-PER
 carried	B-GPE
-Ron	I-PER
-Revenue	I-ORG
-of	I-FAC B-GPE I-LOC B-ORG B-VEH I-ORG B-PER B-FAC I-GPE B-LOC
+Ron	I-PER Meyer
+Revenue	I-ORG Service
+of	Canada Wyoming Newark Toledo Texas Bahrain Santiago Columbia Palestine-General Nokia Western Hamburg Germany Atlanta Hackensack Commons DJB Lords Thomas Right San Honeywell Washington London Korhogo Steven Seattle I-ORG Afghanistan Java Fox Representatives Denver Conservation Burlington Aosta East investment Discovery Montenegro Alan America I-GPE Cycle Tabasco Natural B-GPE Indonesia Florida Kentucky African Bellevue Coldwell Russia Suharto B-ORG Trade Associates Reynolds, Death I-LOC Oklahoma Pinochet Sciences Health Korean The Europe Solo North Congress B-FAC Iraq Winn-Dixie I-FAC Morningstar Adams Houston Patrick Tommy Victory Highland Austin Road Guzman Lanviara Rally B-LOC Milosevic God Cheney Malta Talwinder Bush Georgia Vancouver Donnan Kuwait Israel John parliament McLaren Irian Irvine Hemet Jordan B-PER B-VEH British Nebraska Alabama Carting Appeals Mexico Serbia Yugoslavia the Jerusalem
 Rob	I-PER
-&	I-ORG
-favorite	B-PER
-assault	B-PER
-recognized	B-PER
-Trade	I-ORG
-Blanche	I-PER
-magazine	B-ORG
-Paper	I-ORG
-H.	I-PER
+&	Track Sons Co I-ORG Johnson
+favorite	Dick B-PER
+assault	B-PER al
+urged	Putin Israelis B-PER B-GPE
+Trade	Unions I-ORG
+Blanche	Manning I-PER
+magazine	B-ORG Cycle Das
+Paper	Co I-ORG
+H.	Rehnquist Billington I-PER Forrester
 Digest	I-ORG
-Committee	I-ORG
+Committee	on I-ORG
 Dorothy	I-PER
 introduced	B-PER
-or	B-ORG B-FAC B-PER
-block	B-PER
-Katie	I-PER
-oversaw	B-ORG
+or	B-ORG PRI B-FAC Bush B-PER
+block	B-PER Kostunica
+Katie	Wright I-PER
+oversaw	B-ORG Citigroup
 Express	I-ORG
--elect	B-PER
-Shaw	I-GPE
-Zhonghe	I-PER
-Dallas	I-ORG
-Vince	I-PER
-into	B-ORG B-FAC B-GPE B-PER
-within	B-GPE
+-elect	Bush B-PER
+Shaw	Island I-GPE
+Zhonghe	I-PER Zhou
+Dallas	I-ORG Stars Morning
+Vince	Dooley I-PER
+into	B-GPE Mexico B-ORG Alabama B-PER B-FAC Microsoft Brownsville
+within	Europe B-GPE
 Bowl	I-ORG
-Sue	I-PER
+attorney	Jeffrey B-PER Alfonso
 combine	B-ORG
-Few	B-PER
-Joaquin	I-PER
-Management	I-ORG
-been	B-ORG B-GPE
-Jeannette	I-PER
-U.S.	I-ORG
-NEW	I-GPE
-Korean	I-ORG
-Warren	I-PER
+Few	Herblock B-PER
+Joaquin	Diaz I-PER Navarro-Valls
+Management	Agency I-ORG
+been	B-ORG Arizona Russia B-GPE
+Jeannette	Weisschuh I-PER
+U.S.	Soccer I-ORG Circuit
+NEW	I-GPE YORK
+Korean	I-ORG Confederation Trade
+Warren	Beck I-PER
 Harvey	I-PER
-Roberto	I-PER
-.)	B-ORG
-Ivory	I-GPE I-ORG
-.,	B-PER
+Roberto	Madrazo I-PER
+.)	B-ORG Supreme
+Ivory	I-GPE I-ORG Coast
+.,	B-PER Lieberman
 than	B-PER
-Lawrence	I-PER
-Juan	I-PER
-Marc	I-PER
-Alain	I-PER
-Stansted	I-FAC
+Cowen	Securities I-ORG
+Lawrence	L. I-PER Block
+Tommy''	Mandala I-PER
+Marc	Thiessen I-PER
+Alain	Prost I-PER
+Stansted	I-FAC airport
 Anthony	I-PER
 Linda	I-PER
-appeal	B-PER
-way	B-PER
+appeal	Manning B-PER
+Sue	Markham I-PER
 Gerald	I-PER
 NBC	I-ORG
-Cedar	I-GPE
-Amr	I-PER
-was	B-PER
-war	I-ORG
-Raed	I-PER
-COSTA	I-GPE
+Cedar	I-GPE Rapids
+Mullah	Mohammed I-PER
+was	Bush John Celestine B-PER Gore
+war	crimes I-ORG
+Graf	I-PER
+COSTA	MESA I-GPE
 bought	B-ORG
 needled	B-PER
-Rocky	I-FAC
+Rocky	I-FAC Mountain
 form	B-GPE
-Harri	I-PER
-Arizona	I-ORG
-Des	I-GPE
-Ellen	I-PER
-deny	B-PER
-but	B-ORG B-PER
-Tommy	I-PER
-Stan	I-PER
-Ajaib	I-PER
-Limestone	I-GPE
-hear	B-ORG
-Franklin	I-PER
-Healthcare	I-ORG
-Jean	I-PER
-Highland	I-LOC
+Faustino	Avalos I-PER
+Arizona	State Rattlers I-ORG
+Des	Moines I-GPE
+Raed	I-PER
+deny	B-PER Kostunica
+but	Roy B-ORG Exxon B-PER Intel
+Tommy	Maddox I-PER
+Stan	Musial I-PER
+Ajaib	Singh I-PER
+Limestone	County I-GPE
+hear	B-ORG Northwest
+Franklin	D. I-PER
+C.	I-ORG I-PER O'Brien
+ReplayTV	I-ORG
+pitched	B-ORG
+Highland	I-LOC Park
 Consumer	I-ORG
-analyst	B-PER
-Floricel	I-PER
-imprison	B-PER
-Sgt.	B-PER
-Golden	I-FAC
-hire	B-PER
-made	B-PER
+:	New Bill B-PER B-GPE
+Floricel	I-PER Medina
+imprison	B-PER Tommy
+Sgt.	B-PER Kevin
+Golden	I-FAC Temple
+hire	Danny B-PER
+made	B-PER George
 Placement	I-ORG
 conglomerate	B-ORG
-Jeff	I-PER
-whether	B-ORG B-PER B-GPE
-Augusto	I-PER
-wife	B-PER
-Ted	I-PER
-up	B-ORG B-PER
+Jeff	Wisoff Kanost Fahey I-PER
+whether	Congress B-GPE B-ORG B-PER Go Syria America
+Augusto	I-PER Pinochet
+wife	Claire B-PER
+Ted	I-PER Williams
+up	Go B-ORG B-PER Bush
 Leon	I-GPE
-until	B-PER
-County	I-FAC I-ORG
-celebrating	B-ORG
-below	B-GPE
-convince	B-PER
-division	I-ORG
-ruling	B-ORG
-Palestine	I-ORG
-Geneva	I-ORG
+until	Strom Bush B-PER
+County	I-FAC I-ORG Emergency
+celebrating	B-ORG Ferrari
+below	Alabama B-GPE
+convince	Milosevic B-PER
+division	of I-ORG
+ruling	Institutional B-ORG Democratic
+Palestine	Popular I-ORG
+Geneva	County I-ORG
 Tony	I-PER
 Elvis	I-PER
-Rebecca	I-PER
-called	B-ORG
-Jesse	I-PER
-)	B-GPE
-DeWitt	I-ORG
-Time	I-ORG
-Executive	B-PER
-ordered	B-PER
+Rebecca	O'Grady I-PER
+called	B-ORG Greenwood
+Jesse	Ventura I-PER
+Innsbrook	I-FAC resort
+DeWitt	and I-ORG
+Time	I-ORG Warner
+Charles	R. I-PER
+ordered	B-PER Pinochet
 Granada	I-ORG
-West	I-LOC I-FAC I-ORG I-PER I-GPE
-Am	I-VEH
+West	I-FAC I-LOC Virginia I-PER I-GPE Timor I-ORG Bank
+Am	Flight I-VEH
 combining	B-ORG
 Josh	I-PER
 Christina	I-PER
-Al	I-PER
-''	B-ORG B-PER
-coordinator	B-PER
-as	B-ORG B-PER B-GPE
-Georgia	I-ORG
-at	B-ORG I-ORG B-FAC B-GPE B-PER
+Al	Hoffman Luginbill Gore I-PER
+''	Steve B-ORG B-PER Bush
+coordinator	Greg B-PER Kevin Adam
+as	Putin B-GPE B-ORG Serbia Yugoslavia B-PER Syria Stan Japan Jerusalem Russia Nixon
+Morningstar	I-ORG Inc
+at	St. Phillips Abbeville Arkansas Suzuka Heritage Bluegill Jamestown Rice Brown Korea North Oceanside Centre AOL Boise B-PER Banc B-FAC Oklahoma Georgia B-GPE Rutgers Ferrari Austin Road UBS B-ORG Rockwell Washington George Roy Go Seattle SG I-ORG Stansted
 et	I-ORG
-Sierra	I-ORG
+Sierra	Club I-ORG
 B.K.	I-PER
-Singh	I-PER
+Singh	Bagri I-PER Parmar Hayer Malik
 Veterans	I-FAC
-Tuscaloosa	I-ORG
+Tuscaloosa	County I-ORG
 are	B-ORG
-pitched	B-ORG
-hit	B-GPE
-High	I-FAC I-ORG
-Lamen	I-PER
-Jake	I-PER
+champion	B-PER Mika
+hit	Tuscaloosa B-GPE Geneva
+High	I-FAC School Court I-ORG
+Lamen	I-PER Khalifa
+Jake	Siewert I-PER
 Curtis	I-PER
 POINTE	I-GPE
-Abdurrahman	I-PER
+Abdurrahman	I-PER Wahid
 Fidel	I-PER
 May	I-PER
-when	B-PER B-GPE
+when	B-GPE Chicago Wahid B-PER Jody Yasser Nixon Russia Chase
 Hennessy	I-ORG
-Greg	I-PER
-A.	I-PER
-Yehuda	I-LOC
+Greg	Schiano I-PER
+A.	Darch Baker I-PER
+Yehuda	I-LOC market
 Mario	I-PER
-that	B-ORG B-PER B-GPE
-compares	B-GPE
-Egyptian	B-PER
-overturning	B-ORG
-Football	I-ORG
-Law	I-ORG
-Jeffrey	I-PER
-al	I-PER
-Commissioner	B-PER
-poor	B-PER
-Michele	I-PER
-Strom	I-PER
-Humanitarian	I-ORG
-'s	B-ORG B-PER B-GPE
+Edwards	I-ORG &
+compares	B-GPE Texas
+Egyptian	President B-PER
+overturning	B-ORG Congress
+recognized	B-PER Kostunica
+Football	League I-ORG
+Law	Fund I-ORG
+Jeffrey	Kessler I-PER
+al	Gore I-PER
+Commissioner	B-PER Kenneth Buddy
+poor	Sarah B-PER
+Michele	Roy I-PER
+Strom	I-PER Thurmond
+Humanitarian	Law I-ORG
+'s	Vicente B-GPE Sam division Lorena B-ORG Mort High Tim B-PER Cuming Suzanne Socialist enforcement
 Like	B-PER
-Vladimir	I-PER
+Vladimir	Lenin Putin I-PER
 Art	I-PER
 Julius	I-PER
-KLM	I-ORG
+KLM	Royal I-ORG
 City	I-ORG
-become	B-ORG
-Fernando	I-PER
-trans-	B-LOC
+become	B-ORG Bond/Parkhurst
+Fernando	Kleinfingher I-PER
+Liberation	of I-ORG
+trans-	Atlantic B-LOC Pacific
 du	I-ORG
 Peter's	I-FAC
-allowing	B-PER
-Morgan	I-ORG
-Haitham	I-PER
-Bashar	I-PER
-'m	B-PER
+allowing	B-PER Duncan
+Morgan	I-ORG &
+Haitham	Najid I-PER
+Bashar	Assad I-PER
+'m	B-PER George
 Baltimore	I-ORG
-Seoul	I-FAC
-Carting	I-ORG
-Major	I-ORG
-Coach	B-PER
+Seoul	I-FAC train
+Carting	World I-ORG
+Major	League I-ORG
+Coach	B-PER Koetter
 Fordham	I-FAC
-Mika	I-PER
+Mika	Hakkinen I-PER
 admires	B-PER
-described	B-PER
-Radical	I-ORG
-raging	B-LOC
-space	I-FAC
-big	I-GPE
-Mission	I-ORG
-daily	B-ORG
-Air-India	B-VEH
+described	Wouters B-PER
+Radical	Party I-ORG
+raging	Po B-LOC
+Executive	B-PER Jorma
+big	four I-GPE
+Mission	Control I-ORG
+daily	Komsomolskaya B-ORG
+Air-India	Flight B-VEH
 Hardware	I-ORG
 2000	I-ORG
-Street	I-ORG
-Scott	I-PER
-At	B-ORG
-Institutional	I-ORG
-time	B-GPE
-Alassane	I-PER
-Hafez	I-PER
+Street	Journal I-ORG
+Scott	Boras Milanovich I-PER
+At	B-ORG Citifinancial
+Institutional	Revolutionary I-ORG
+Village	police I-ORG
+Alassane	Dramane I-PER
+Hafez	Assad I-PER
 Empire	I-ORG
-Mahane	I-LOC
-requires	B-PER
+Mahane	Yehuda I-LOC
+requires	Roy B-PER
 Michigan	B-ORG
-Times	I-FAC I-ORG
-Cowen	I-ORG
+paced	B-ORG Ferrari
+Donna	I-ORG
